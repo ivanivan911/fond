@@ -24,8 +24,8 @@ header {
 }
 
 #header-nav {
-    float: right;
-    margin-right: 272px;
+    float: left;
+    margin-left: 134px;
 }
 
 .header-nav-list-item {
@@ -44,4 +44,53 @@ header {
     background: url('../img/top_bg_1.jpg');
     position: relative;
     top: -191px;
+}
+
+#activity {
+    padding-top: 60px;
+    margin-top: -191px;
+}
+
+#activity::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#fund_mission {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#fund_mission p {
+    text-align: left;
+    margin-bottom: 40px;
+    color: #858585;
+}
+
+#fund_mission p span {
+    color: #2a3890;
+}
+
+#fund_mission a {
+    padding-right: 23px;
+    background: url('../img/right_arrow.png') no-repeat 272px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #434d99;
+}
+
+#activity h2 {
+    text-transform: uppercase;
+    color: #7a7a7a;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.activity-list-item {
+    width: 280px;
+    height: 280px;
+    background: #f00;
+    float: left;
+    margin: 10px;
 }
