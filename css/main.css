@@ -51,7 +51,6 @@ body {
 }
 
 .wrapper {
-    width: 84.61538461538461%;
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -108,7 +107,13 @@ header {
     height: 35px;
 }
 
-
+.block-header {
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 30px;
+    color: #7a7a7a;
+    margin-top: 80px;
+    text-align: center;
+}
 
 
 #activity {
@@ -251,6 +256,130 @@ header {
     float: left;
     margin: 10px;
 }
+
+.hidden-details{
+    margin-top: 20px;
+    display:none;
+    background: #f2f2f2;
+    border-top: 1px solid #c6e0a6;
+    border-bottom: 1px solid #c6e0a6;
+    padding-bottom: 30px;
+}
+
+.hidden-details p{
+    color: #7a7a7a;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 15px;
+    width: 85%;
+    margin: 0 auto;
+    -webkit-hyphens: auto;
+    text-indent: 40px;
+    line-height: 2;
+    margin-top: 35px;
+}
+
+.hidden-details-active{
+    -webkit-filter: drop-shadow(0 1px 10px #83c434);
+    -moz-box-shadow: 0 1px 10px #83c434;
+    filter: drop-shadow(0 1px 10px #83c434);
+}
+
+.hidden-details {
+    top: 40px;
+    position: relative;
+    width: 100%;
+}
+
+.hidden-details:after,
+.hidden-details:before {
+    bottom: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.hidden-details:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color:  #f2f2f2;
+    border-width: 19px;
+    left: 50%;
+    margin-left: -19px;
+}
+.hidden-details:before {
+    border-bottom-color:  #c6e0a6;
+    border-width: 20px;
+    left: 50%;
+    margin-left: -20px;
+}
+
+
+
+.clear-activity{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.about-us{
+    margin-top: 80px;
+}
+
+.about-us-title{
+    text-align: center;
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 30px;
+    color: #7a7a7a;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+.about-us-text{
+    color: #7a7a7a;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 15px;
+    width: 85%;
+    margin: 0 auto;
+    -webkit-hyphens: auto;
+    text-indent: 40px;
+    line-height: 2;
+    margin-top: 35px;
+}
+
+.about-us-article{
+    margin-top: 40px;
+    background: #f2f2f2;
+    border-top: 1px solid #c6e0a6;
+    border-bottom: 1px solid #c6e0a6;
+}
+
+.phrase-text{
+    margin-right: 150px;
+    width: 370px;
+    float: right;
+}
+
+.about-us blockquote{
+    font-family: "Roboto Light", sans-serif;
+    height: 100px;
+    color: #2a3890;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-us img{
+    position: absolute;
+    right: 30px;
+    bottom: 260px;
+}
+
+.about-us b {
+    font-weight: bold;
+}
+
 
 /*Footer*/
 
