@@ -31,10 +31,11 @@
   display: block;
 }
 .slides-navigation a.prev {
-  left: 0;
+  left: 10px;
+
 }
 .slides-navigation a.next {
-  right: 0;
+  right: 10px;
 }
 
 .slides-pagination {

@@ -9,6 +9,7 @@ $(document).ready(function() {
         pagination: true,
         hashchange: true,
         scrollable: true,
-        inherit_height_from:$('#main-banner')
+        inherit_height_from:$('#main-banner'),
+        inherit_width_from:$('#main-banner')
     });
 });
