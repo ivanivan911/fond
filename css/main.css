@@ -1,7 +1,7 @@
 body {
     width: 100%;
-    max-width: 1300px;
     margin: 0 auto;
+    max-width: 1500px;
 }
 
 .wrapper {
@@ -12,7 +12,7 @@ body {
 
 header {
     position: relative;
-    z-index: 2;
+    z-index: 3;
     height: 191px;
 }
 
@@ -40,11 +40,11 @@ header {
 }
 
 #main-banner {
-    height: 740px;
-    background: url('../img/top_bg_1.jpg');
+    height: 600px;
     position: relative;
     top: -191px;
 }
+
 
 #activity {
     padding-top: 60px;
