@@ -83,6 +83,7 @@ header {
 }
 
 .header-nav-list-item {
+    overflow: hidden;
     float: left;
     font-family: "Roboto Medium", sans-serif;
     font-size: 15px;
@@ -95,11 +96,14 @@ header {
     text-decoration: none;
     padding: 57px 30px 12px;
     color: #fff;
+    /**/
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, transparent 50%, #20257f 50%);
+    transition: background-position 0.3s;
 }
 
-.header-nav-list-item:hover {
-    cursor: pointer;
-    background: #20257f;
+.header-nav-link:hover {
+    background-position: 0 -100%;
 }
 
 .header-nav-list-item-active{
