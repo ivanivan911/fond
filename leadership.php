@@ -17,10 +17,10 @@
         </h1>
         <nav class="header-nav scroll-header-nav">
             <ul class="header-nav-list">
-                <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link scroll-header-nav-list-item">Про фонд</a></li>
+                <li class="header-nav-list-item"><a href="index.php#about-us-anchor" class="header-nav-link scroll-header-nav-list-item">Про фонд</a></li>
                 <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link scroll-header-nav-list-item">Меценати</a></li>
                 <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link scroll-header-nav-list-item header-nav-list-item-active">Керівництво</a></li>
-                <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link scroll-header-nav-list-item">Контакти</a></li>
+                <li class="header-nav-list-item"><a href="#footer" id="toFooter" class="header-nav-link scroll-header-nav-list-item">Контакти</a></li>
             </ul>
         </nav>
     </div>

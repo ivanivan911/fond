@@ -28,7 +28,6 @@ $(document).ready(function() {
         slide_easing: 'easeInOutCubic',
         slide_speed: 800,
         pagination: true,
-        hashchange: true,
         scrollable: true,
         inherit_height_from:$('#main-banner'),
         inherit_width_from:$('#main-banner')
@@ -83,10 +82,17 @@ $(document).ready(function() {
             $(this).removeClass("hidden-details-active");
             $("#hidden-details-" + selector).slideUp(1000);
         }
-    })
+    });
 
-    $(".scroll-header-nav-list-item").hover(function(){
-        alert(123);
+    $(".scroll-header-nav-list-item").hover(function(){        
         $(".scroll-header-nav-list-item").removeClass("header-nav-list-item-active");
-    })
+    });
+
+    $("#toFooter").click(function () {
+        var elementClick = $(this).attr("href");
+        var destination = $(elementClick).offset().top;
+        $('html,body').animate( { scrollTop: destination }, 1100 );
+        return false;
+    });
+
 });

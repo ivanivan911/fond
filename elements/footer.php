@@ -1,4 +1,4 @@
-<footer>
+<footer ><a id="footer"></a>
     <div class="wrapper">
         <div class="footer-activity-block" id="sign-up-join">
             <div id="footer-sign-up">
@@ -23,6 +23,7 @@
                 <a id="facebook-link" href="#">Facebook</a>
             </div>
         </div>
-        <img src="img/logo_footer.png" alt="" id="footer-logo">
+        <a href="index.php"><img src="img/logo_footer.png" alt="" id="footer-logo"></a>
+
     </div>
 </footer>

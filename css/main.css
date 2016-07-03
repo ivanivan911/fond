@@ -116,7 +116,11 @@ header {
     height: 110px;
     position: fixed;
     width: 100%;
-    background: rgba(240, 240, 240, 0.8);
+    .background: rgba(240, 240, 240, 0.8);
+}
+
+#leadership .scroll-header{
+    background: inherit;
 }
 
 .scroll-header-logo {

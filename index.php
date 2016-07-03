@@ -121,7 +121,8 @@
                     цілого спектру напрямків від підготовки військових, підтримки їх в зоні бойових дій та їхніх сімей у тилу
                     до реабілітації та адаптації їх до життя після війни.</p></div>
     </section>
-    <section class="about-us">
+
+    <section class="about-us"><a id="about-us-anchor"></a>
         <div class="wrapper">
             <article class="about-us-article">
                 <p class="about-us-title">Про Фонд</p>
