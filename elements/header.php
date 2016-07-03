@@ -10,6 +10,7 @@
                 <li class="header-nav-list-item"><a href="#about-us-anchor" class="header-nav-link">Про фонд</a></li>
                 <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link">Меценати</a></li>
                 <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link">Керівництво</a></li>
+                <li class="header-nav-list-item"><a href="#news" class="header-nav-link">Новини</a></li>
                 <li class="header-nav-list-item"><a href="#footer" id="toFooter" class="header-nav-link">Контакти</a></li>
             </ul>
         </nav>

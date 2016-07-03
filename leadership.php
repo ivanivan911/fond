@@ -20,6 +20,7 @@
                 <li class="header-nav-list-item"><a href="index.php#about-us-anchor" class="header-nav-link scroll-header-nav-list-item">Про фонд</a></li>
                 <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link scroll-header-nav-list-item">Меценати</a></li>
                 <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link scroll-header-nav-list-item header-nav-list-item-active">Керівництво</a></li>
+                <li class="header-nav-list-item"><a href="index.php#news" class="header-nav-link scroll-header-nav-list-item">Новини</a></li>
                 <li class="header-nav-list-item"><a href="#footer" id="toFooter" class="header-nav-link scroll-header-nav-list-item">Контакти</a></li>
             </ul>
         </nav>
@@ -27,10 +28,8 @@
 </header>
     <div class="main">
         <div class="founder-1">
-            <p class="founder-1-text"><span class="blue-text">Олександр Прокопенко</span> - Засновник благодійного фонду
-                "Стрічка надії", український підприємець, політик, мільярдер
-                та меценат, засновник інвестиційно-консалтинговох компанії EastOne
-                та благочинної організації.
+            <p class="founder-1-text"><span class="blue-text">Олексій Кошевець</span> - військовий Батальйону спеціального презначення "Свята Марія",
+                засновник Благодійного Фонду "Стрічка надії", спортсмен, філантроп.
             </p>
         </div>
         <div class="write-us">

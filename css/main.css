@@ -790,14 +790,15 @@ footer {
 
 #leadership .founder-1{
     height:740px;
-    background: url('../img/prokopenko.jpg');
+    background: url('../img/koshevets.png');
     background-size: cover;
+
 }
 
 .founder-1-text{
     font-family: "Roboto Light", sans-serif;
     font-size: 22px;
-    color:white;
+    color:#7a7a7a;
     position: absolute;
     left:50%;
     top:300px;
