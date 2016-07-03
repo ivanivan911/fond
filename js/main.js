@@ -84,4 +84,9 @@ $(document).ready(function() {
             $("#hidden-details-" + selector).slideUp(1000);
         }
     })
+
+    $(".scroll-header-nav-list-item").hover(function(){
+        alert(123);
+        $(".scroll-header-nav-list-item").removeClass("header-nav-list-item-active");
+    })
 });

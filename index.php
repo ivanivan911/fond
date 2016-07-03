@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./js/libs/superslides-0.6.2/dist/stylesheets/superslides.css">
     <script src="./js/jquery-2.2.4.js"></script>
     <script src="./js/libs/superslides-0.6.2/dist/jquery.superslides.js"></script>
+    <script src="./js/libs/html5shiv.js"></script>
 
 </head>
 <body>

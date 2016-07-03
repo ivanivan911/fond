@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Founders</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="./js/jquery-2.2.4.js"></script>
 </head>
 <body id="leadership">
 <header class="scroll-header">
@@ -18,13 +19,13 @@
             <ul class="header-nav-list">
                 <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link scroll-header-nav-list-item">Про фонд</a></li>
                 <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link scroll-header-nav-list-item">Меценати</a></li>
-                <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link scroll-header-nav-list-item">Керівництво</a></li>
+                <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link scroll-header-nav-list-item header-nav-list-item-active">Керівництво</a></li>
                 <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link scroll-header-nav-list-item">Контакти</a></li>
             </ul>
         </nav>
     </div>
 </header>
-    <div class="content">
+    <div class="main">
         <div class="founder-1">
             <p class="founder-1-text"><span class="blue-text">Олександр Прокопенко</span> - Засновник благодійного фонду
                 "Стрічка надії", український підприємець, політик, мільярдер
@@ -32,7 +33,14 @@
                 та благочинної організації.
             </p>
         </div>
+        <div class="write-us">
+            <h3 class="write-us-header">НАПИШІТЬ НАМ</h3>
+            <div class="feedback-link">
+                <a href="#">НАПИСАТИ</a>
+            </div>
+        </div>
     </div>
     <?php include('./elements/footer.php')?>
+<script type="text/javascript" src="js/leadership.js"></script>
 </body>
 </html>

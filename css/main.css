@@ -1,4 +1,8 @@
 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
 /*--------------------------------------------------------*/
 /*FONTS*/
 /*--------------------------------------------------------*/
@@ -43,9 +47,9 @@
 }
 
 body {
-    min-width:900px;
+    min-width:1300px;
     width: auto !important;
-    width:900px;
+    width:1300px;
     margin: 0 auto;
     position: relative;
 }
@@ -84,6 +88,8 @@ header {
     font-size: 15px;
 }
 
+
+
 .header-nav-link{
     display: inline-block;
     text-decoration: none;
@@ -93,6 +99,10 @@ header {
 
 .header-nav-list-item:hover {
     cursor: pointer;
+    background: #20257f;
+}
+
+.header-nav-list-item-active{
     background: #20257f;
 }
 
@@ -244,6 +254,12 @@ header {
 .headings{
     color: #2a3890;
     font-weight: bold;
+}
+
+#activity .wrapper{
+    width: auto;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .activity-rectangle {
@@ -446,6 +462,11 @@ header {
     width: 370px;
     margin-right: 223px;
     float: right;
+    font-style:italic;
+}
+
+.phrase-text cite{
+    font-style:normal;
 }
 
 .about-us blockquote {
@@ -464,8 +485,8 @@ header {
 
 .about-us img{
     position: absolute;
-    right: 300px;
-    bottom: 35px;
+    right: 210px;
+    bottom: 40px;
 }
 
 b {
@@ -572,6 +593,7 @@ b {
     font-size: 35px;
     margin-top: 50px;
     margin-bottom: 40px;
+    font-family: "Roboto Light", sans-serif;
 }
 
 /*Footer*/
@@ -582,6 +604,7 @@ footer {
     background: #f2f2f2;
     padding-top: 50px;
     padding-bottom: 50px;
+    font-family: "Roboto Medium", sans-serif;
 }
 
 .footer-activity-block,
@@ -640,6 +663,8 @@ footer {
     float: right;
     position: relative;
     top: -1px;
+    color:#6872ae;
+    font-weight:bold;
 }
 
 .footer-activity-block label {
@@ -741,3 +766,8 @@ footer {
 .blue-text{
     color:#2a3890;
 }
+
+.write-us{
+    padding-bottom: 30px;
+}
+
