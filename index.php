@@ -121,6 +121,7 @@
                     до реабілітації та адаптації їх до життя після війни.</p></div>
     </section>
     <section class="about-us">
+        <div class="wrapper">
             <article class="about-us-article">
                 <p class="about-us-title">Про Фонд</p>
                 <p class="about-us-text">	Благодійна діяльність в ширшому значенні це дія по наданню безпосередньо чи обслуговуванню благодійної
@@ -143,22 +144,59 @@
                     </p>
                 </blockquote>
             </article>
+        </div>
     </section>
     <section class="current-programs">
         <div class="wrapper">
-            <ul class="current-programs-list">
-                <li class="current-programs-list-item"></li>
-                <li class="current-programs-list-item"></li>
-                <li class="current-programs-list-item"></li>
-                <li class="current-programs-list-item"></li>
-                <li class="current-programs-list-item"></li>
-            </ul>
-        </div>
-    </section>
-    <section class="write-us">
-        <div class="wrapper">
-            <h2>Напишіть Нам</h2>
-            <a href="#">Написати</a>
+            <h2 class="block-header">
+                ДІЮЧІ ПРОГРАМИ
+            </h2>
+            <div class="current-programs-box-wrapper">
+                <div class="box box1">
+                    <div class="box-text">
+                        <span class="">РЕГІОНАЛЬНА ДОПОМОГА</span>
+                    </div>
+                    <div class="box-details programs-box">
+                        <a href="#">ДЕТАЛІ...</a>
+                    </div>
+                </div>
+                <div class="box box1">
+                    <div class="box-text">
+                        <span class="">РЕГІОНАЛЬНА ДОПОМОГА</span>
+                    </div>
+                    <div class="box-details programs-box">
+                        <a href="#">ДЕТАЛІ...</a>
+                    </div>
+                </div>
+                <div class="rect-vert">
+                    <div class="box-text">
+                        <span class="">РЕГІОНАЛЬНА ДОПОМОГА</span>
+                    </div>
+                    <div class="box-details programs-box">
+                        <a href="#">ДЕТАЛІ...</a>
+                    </div>
+                </div>
+                <div class="box box1">
+                    <div class="box-text">
+                        <span class="">РЕГІОНАЛЬНА ДОПОМОГА</span>
+                    </div>
+                    <div class="box-details programs-box">
+                        <a href="#">ДЕТАЛІ...</a>
+                    </div>
+                </div>
+                <div class="box box1">
+                    <div class="box-text">
+                        <span class="">РЕГІОНАЛЬНА ДОПОМОГА</span>
+                    </div>
+                    <div class="box-details programs-box">
+                        <a href="#">ДЕТАЛІ...</a>
+                    </div>
+                </div>
+            </div>
+            <h3 class="write-us-header">НАПИШІТЬ НАМ</h3>
+            <div class="feedback-link">
+                <a href="#">НАПИСАТИ</a>
+            </div>
         </div>
     </section>
     <?php include('./elements/footer.php')?>
