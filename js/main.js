@@ -1,6 +1,27 @@
 /**
  * Created by IvanDev on 02.07.2016.
  */
+
+/*Header on scroll function*/
+
+$(window).on("scroll", function() {
+    if($(window).scrollTop() > 50) {
+        $("header").addClass("scroll-header");
+        $(".header-logo").addClass("scroll-header-logo");
+        $(".header-nav").addClass("scroll-header-nav");
+        $(".header-logo-img").addClass("scroll-header-logo-img");
+        $(".header-nav-list-item").addClass("scroll-header-nav-list-item");
+    } else {
+        $("header").removeClass("scroll-header");
+        $(".header-logo").removeClass("scroll-header-logo");
+        $(".header-nav").removeClass("scroll-header-nav");
+        $(".header-logo-img").removeClass("scroll-header-logo-img");
+        $(".header-nav-list-item").removeClass("scroll-header-nav-list-item");
+    }
+});
+
+/**/
+
 $(document).ready(function() {
     $('#slides').superslides({
         play: 30000,

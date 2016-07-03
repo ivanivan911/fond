@@ -51,9 +51,12 @@ body {
 }
 
 .wrapper {
+    width: 84.61538461538461%;
     max-width: 1300px;
     margin: 0 auto;
 }
+
+/*Header*/
 
 header {
     position: relative;
@@ -61,7 +64,7 @@ header {
     height: 191px;
 }
 
-#header-logo {
+.header-logo {
     float: left;
     width: 162px;
     height: 159px;
@@ -86,6 +89,34 @@ header {
     cursor: pointer;
     background: #20257f;
 }
+
+/*Header on scroll*/
+
+.scroll-header {
+    height: 110px;
+    position: fixed;
+    width: 100%;
+    background: rgba(240, 240, 240, 0.8);
+}
+
+.scroll-header-logo {
+    padding-top: 10px;
+}
+
+.scroll-header-logo-img {
+    height: 90px;
+}
+
+.scroll-header-nav {
+    height: 110px;
+    float: right;
+}
+
+.scroll-header-nav-list-item {
+    padding: 48px 30px 48px;
+}
+
+
 
 /*Banner*/
 
@@ -384,9 +415,13 @@ header {
 /*Footer*/
 
 footer {
-    height: 190px;
+    min-height: 90px;
     border-top: solid 1px #c6e0a6;
     background: #f2f2f2;
+    position: relative;
+    top: -45px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .footer-activity-block,
@@ -398,7 +433,6 @@ footer {
 .footer-activity-block {
     width: 570px;
     height: 83px;
-    margin-top: 50px;
 }
 
 .footer-activity-block::after {
@@ -460,6 +494,49 @@ footer {
 
 .contact-info {
     width: 150px;
-    height: 70px;
+    height: 78px;
     margin-left: 120px;
+}
+
+#youtube-link,
+#facebook-link {
+    color: transparent;
+}
+
+#youtube-link {
+    background: url(../img/contacts.png) no-repeat 0 -30px;
+    display: inline-block;
+    height: 24px;
+}
+
+#youtube-link:hover {
+    background: url(../img/contacts.png) no-repeat;
+}
+
+#facebook-link {
+    background: url(../img/contacts.png) no-repeat -68px 1px;
+    display: inline-block;
+    height: 25px;
+    width: 11px;
+    margin-left: 24px;
+}
+
+#facebook-link:hover {
+    background: url(../img/contacts.png) no-repeat -68px -29px;
+}
+
+.phone-number {
+    text-decoration: none;
+    color: #7a7a7a;
+    font-size: 17px;
+}
+
+.footer-social {
+    margin-top: 36px;
+}
+
+#footer-logo {
+    margin-left: 120px;
+    position: relative;
+    top: 12px;
 }
