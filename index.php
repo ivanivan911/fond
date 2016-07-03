@@ -11,23 +11,7 @@
 
 </head>
 <body>
-    <header>
-        <div class="wrapper">
-            <h1 class="header-logo">
-                <a href="#">
-                    <img class="header-logo-img" src="img/logo.png" alt="Logo">
-                </a>
-            </h1>
-            <nav class="header-nav">
-                <ul class="header-nav-list">
-                    <li class="header-nav-list-item">Про фонд</li>
-                    <li class="header-nav-list-item">Меценати</li>
-                    <li class="header-nav-list-item">Засновники</li>
-                    <li class="header-nav-list-item">Контакти</li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <?php include('./elements/header.php') ?>
     <section id="main-banner">
         <div id="slides">
             <ul class="slides-container">
@@ -177,34 +161,7 @@
             <a href="#">Написати</a>
         </div>
     </section>
-    <footer>
-        <div class="wrapper">
-            <div class="footer-activity-block" id="sign-up-join">
-                <div id="footer-sign-up">
-                    <div id="sign-up-field-wrapper">
-                        <label class="sign-up-field-label" for="sign-up-field"><span>Останні</span> Новини</label>
-                        <input id="sign-up-field" type="text">
-                    </div>
-                    <a id="sign-up-btn" href="#">Підписатись</a>
-                </div>
-                <div id="footer-join" id="footer-join">
-                    <div id="join-field-wrapper">
-                        <label class="join-field-label" for="join-field">Стати <span>Волонтером</span></label>
-                        <input id="join-field" type="text">
-                    </div>
-                    <a id="join-btn" href="#">Приєднатись</a>
-                </div>
-            </div>
-            <div class="contact-info">
-                <a class="phone-number" href="tel: 0500000000">+380 000-00-00</a>
-                <div class="footer-social">
-                    <a id="youtube-link" href="#">YouTube</a>
-                    <a id="facebook-link" href="#">Facebook</a>
-                </div>
-            </div>
-            <img src="img/logo_footer.png" alt="" id="footer-logo">
-        </div>
-    </footer>
+    <?php include('./elements/footer.php')?>
     <script type="text/javascript" src="js/main.js"></script>
 
 </body>
