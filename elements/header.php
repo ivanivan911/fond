@@ -7,10 +7,10 @@
         </h1>
         <nav class="header-nav">
             <ul class="header-nav-list">
-                <li class="header-nav-list-item">Про фонд</li>
-                <li class="header-nav-list-item">Меценати</li>
-                <li class="header-nav-list-item">Засновники</li>
-                <li class="header-nav-list-item">Контакти</li>
+                <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link">Про фонд</a></li>
+                <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link">Меценати</a></li>
+                <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link">Керівництво</a></li>
+                <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link">Контакти</a></li>
             </ul>
         </nav>
     </div>

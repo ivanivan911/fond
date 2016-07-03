@@ -10,13 +10,13 @@ $(window).on("scroll", function() {
         $(".header-logo").addClass("scroll-header-logo");
         $(".header-nav").addClass("scroll-header-nav");
         $(".header-logo-img").addClass("scroll-header-logo-img");
-        $(".header-nav-list-item").addClass("scroll-header-nav-list-item");
+        $(".header-nav-link").addClass("scroll-header-nav-list-item");
     } else {
         $("header").removeClass("scroll-header");
         $(".header-logo").removeClass("scroll-header-logo");
         $(".header-nav").removeClass("scroll-header-nav");
         $(".header-logo-img").removeClass("scroll-header-logo-img");
-        $(".header-nav-list-item").removeClass("scroll-header-nav-list-item");
+        $(".header-nav-link").removeClass("scroll-header-nav-list-item");
     }
 });
 
