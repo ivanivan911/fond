@@ -95,4 +95,20 @@ $(document).ready(function() {
         return false;
     });
 
+    $("#toNews").click(function () {
+        var elementClick = $(this).attr("href");
+        var destination = $(elementClick).offset().top - 110;
+        console.log(destination);
+        $('html,body').animate( { scrollTop: destination }, 1100 );
+        return false;
+    });
+
+
+    $("#to-current-programs").click(function () {
+        var elementClick = $(this).attr("href");
+        var destination = $(elementClick).offset().top - 110;
+        $('html,body').animate( { scrollTop: destination }, 1100 );
+        return false;
+    });
+
 });

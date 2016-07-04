@@ -11,7 +11,7 @@
 <header class="scroll-header">
     <div class="wrapper">
         <h1 class="header-logo scroll-header-logo">
-            <a href="#">
+            <a href="index.php">
                 <img class="header-logo-img scroll-header-logo-img" src="img/logo.png" alt="Logo">
             </a>
         </h1>

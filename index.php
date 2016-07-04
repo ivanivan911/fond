@@ -18,28 +18,41 @@
             <ul class="slides-container">
                 <li>
                     <img src="./img/fon_1.jpg"  alt="">
+                    <div class="slider-content">
+                        <p class="blue-text"> <b>Робити</b> добро легше, ніж <b>бути</b> добрим</p>
+                        <p class="author blue-text">
+                            Ж. Вольфрам
+                        </p>
+
+                        <div class="donate">
+                            <a href="#">DONATE</a>
+                        </div>
+                    </div>
                 </li>
                 <li>
                     <img src="./img/fon_2.jpg"  alt="">
+                    <div class="slider-content white-text">
+                        <p> Ми підтримуємо...</p>
+                        <div class="donate white-text">
+                            <a href="#current-programs" id="to-current-programs">Деталі</a>
+                        </div>
+                    </div>
                 </li>
                 <li>
                     <img src="./img/fon_3.jpg"  alt="">
+                    <div class="slider-content white-text">
+                        <p>ОСТАННІ НОВИНИ...</p>
+                        <div class="donate">
+                            <a href="#news" id="toNews">Деталі</a>
+                        </div>
+                    </div>
                 </li>
             </ul>
             <nav class="slides-navigation">
                 <a href="#" class="next"></a>
                 <a href="#" class="prev"></a>
             </nav>
-            <div class="slider-content">
-                <p> <b>Робити</b> добро легше, ніж <b>бути</b> добрим</p>
-                <p class="author">
-                    Ж. Вольфрам
-                </p>
 
-                <div class="donate">
-                    <a href="#">DONATE</a>
-                </div>
-            </div>
         </div>
     </section>
     <section id="activity">
@@ -146,7 +159,7 @@
             </article>
         </div>
     </section>
-    <section class="current-programs">
+    <section class="current-programs" id="current-programs">
         <div class="wrapper">
             <h2 class="block-header">
                 ДІЮЧІ ПРОГРАМИ

@@ -63,7 +63,7 @@ body {
 /*Header*/
 
 header {
-    position: relative;
+    position: fixed;
     z-index: 4;
     height: 191px;
     min-width: 900px;
@@ -77,7 +77,7 @@ header {
 }
 
 .header-nav {
-    margin-left: -250px;
+    min-width: 650px;
     left: 50%;
     position: absolute;
 }
@@ -145,7 +145,7 @@ header {
 /*Banner*/
 
 #main-banner {
-    height: 740px;
+    height: 780px;
     position: relative;
     top: -191px;
 }
@@ -185,7 +185,7 @@ header {
     font-style: italic;
     font-size: 45px;
     text-align: center;
-    color: #2a3890;
+
     font-family: "Roboto Thin", sans-serif;
 }
 .donate{
@@ -792,6 +792,7 @@ footer {
     height:740px;
     background: url('../img/koshevets.png');
     background-size: cover;
+    background-position: 40% 20%;
 
 }
 
@@ -809,6 +810,10 @@ footer {
 
 .blue-text{
     color:#2a3890;
+}
+
+.white-text{
+    color:#f2f2f2;
 }
 
 .write-us{
