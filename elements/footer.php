@@ -17,10 +17,10 @@
             </div>
         </div>
         <div class="contact-info">
-            <a class="phone-number" href="tel: 0500000000">+380 000-00-00</a>
+            <a class="phone-number" href="tel: +380668381909">+38 066 838 19 09</a>
             <div class="footer-social">
-                <a id="youtube-link" href="#">YouTube</a>
-                <a id="facebook-link" href="#">Facebook</a>
+                <a id="youtube-link" href="https://www.youtube.com/channel/UC4bNNCpsXWIEcaAn_rSLfeQ">YouTube</a>
+                <a id="facebook-link" href="https://www.facebook.com/StrichkaNadii/">Facebook</a>
             </div>
         </div>
         <a href="index.php"><img src="img/logo_footer.png" alt="" id="footer-logo"></a>

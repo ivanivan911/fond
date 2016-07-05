@@ -47,6 +47,7 @@
                         </div>
                     </div>
                 </li>
+
             </ul>
             <nav class="slides-navigation">
                 <a href="#" class="next"></a>
@@ -61,7 +62,7 @@
                 <p>	<span class="headings">Місія фонду </span> полягає у 
                     розвитку громадянського суспільства, підтримці та підвищенні соціальних благ населення України. </p>
 
-                <a href="#">Детальніше Про Місію Фонду</a>
+                <a href="about-mission.php">Детальніше Про Місію Фонду</a>
             </article>
             <div class="activity-fond">
                 <p class="block-header">

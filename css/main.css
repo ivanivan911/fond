@@ -820,3 +820,37 @@ footer {
     padding-bottom: 30px;
 }
 
+#about-mission .mission{
+    height:740px;
+    background: url('../img/fund_mission.jpg');
+    background-size: cover;
+    background-position: 40% 20%;
+}
+
+.mission-text {
+    padding: 10px 100px;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    /* left: 50%; */
+    top: 280px;
+    text-indent: 40px;
+    line-height: 2;
+    text-align: justify;
+}
+
+.mission-header {
+    /* padding: 10px 100px; */
+    font-family: "Roboto Light", sans-serif;
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    left: 50%;
+    margin-left: -91px;
+    top: 200px;
+    text-indent: 40px;
+    line-height: 2;
+    text-align: center;
+}
+
