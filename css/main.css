@@ -1,4 +1,8 @@
 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
 /*--------------------------------------------------------*/
 /*FONTS*/
 /*--------------------------------------------------------*/
@@ -43,9 +47,9 @@
 }
 
 body {
-    min-width:900px;
+    min-width:1300px;
     width: auto !important;
-    width:900px;
+    width:1300px;
     margin: 0 auto;
     position: relative;
 }
@@ -59,9 +63,10 @@ body {
 /*Header*/
 
 header {
-    position: relative;
+    position: fixed;
     z-index: 4;
     height: 191px;
+    min-width: 900px;
 }
 
 .header-logo {
@@ -71,22 +76,37 @@ header {
     padding-top: 32px;
 }
 
-#header-nav {
-    margin-left: -250px;
+.header-nav {
+    min-width: 650px;
     left: 50%;
     position: absolute;
 }
 
 .header-nav-list-item {
+    overflow: hidden;
     float: left;
-    color: #fff;
-    padding: 57px 30px 12px;
     font-family: "Roboto Medium", sans-serif;
     font-size: 15px;
 }
 
-.header-nav-list-item:hover {
-    cursor: pointer;
+
+
+.header-nav-link{
+    display: inline-block;
+    text-decoration: none;
+    padding: 57px 30px 12px;
+    color: #fff;
+    /**/
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, transparent 50%, #20257f 50%);
+    transition: background-position 0.3s;
+}
+
+.header-nav-link:hover {
+    background-position: 0 -100%;
+}
+
+.header-nav-list-item-active{
     background: #20257f;
 }
 
@@ -97,6 +117,10 @@ header {
     position: fixed;
     width: 100%;
     background: rgba(240, 240, 240, 0.8);
+}
+
+#leadership .scroll-header{
+    background: inherit;
 }
 
 .scroll-header-logo {
@@ -121,7 +145,7 @@ header {
 /*Banner*/
 
 #main-banner {
-    height: 740px;
+    height: 780px;
     position: relative;
     top: -191px;
 }
@@ -161,7 +185,7 @@ header {
     font-style: italic;
     font-size: 45px;
     text-align: center;
-    color: #2a3890;
+
     font-family: "Roboto Thin", sans-serif;
 }
 .donate{
@@ -238,6 +262,12 @@ header {
 .headings{
     color: #2a3890;
     font-weight: bold;
+}
+
+#activity .wrapper{
+    width: auto;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .activity-rectangle {
@@ -440,6 +470,11 @@ header {
     width: 370px;
     margin-right: 223px;
     float: right;
+    font-style:italic;
+}
+
+.phrase-text cite{
+    font-style:normal;
 }
 
 .about-us blockquote {
@@ -458,8 +493,8 @@ header {
 
 .about-us img{
     position: absolute;
-    right: 300px;
-    bottom: 35px;
+    right: 210px;
+    bottom: 40px;
 }
 
 b {
@@ -566,7 +601,43 @@ b {
     font-size: 35px;
     margin-top: 50px;
     margin-bottom: 40px;
+    font-family: "Roboto Light", sans-serif;
 }
+
+/* NEWS*/
+
+.news {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #f2f2f2;
+    position: relative;
+    border-top: 1px solid #c6e0a6;
+    border-bottom: 1px solid #c6e0a6;
+}
+
+.news img{
+    width: 100%;
+}
+
+.news p{
+    color: #7a7a7a;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 15px;
+    width: 85%;
+    margin: 0 auto;
+    -webkit-hyphens: auto;
+    text-indent: 40px;
+    line-height: 2;
+}
+
+.news .news-title{
+    text-align: center;
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 30px;
+    color: #7a7a7a;
+    margin-bottom: 25px;
+}
+
 
 /*Footer*/
 
@@ -576,6 +647,7 @@ footer {
     background: #f2f2f2;
     padding-top: 50px;
     padding-bottom: 50px;
+    font-family: "Roboto Medium", sans-serif;
 }
 
 .footer-activity-block,
@@ -609,8 +681,18 @@ footer {
     color: #6872ae;
 }
 
+#footer-sign-up a:hover {
+    color:#f2f2f2;
+    background-color:#2a3890
+}
+
 #footer-join a {
     border: 1px solid #9cd05d;
+    color: #9cd05d;
+}
+
+#footer-join a:hover{
+    background-color: #83c434;
     color: #9cd05d;
 }
 
@@ -624,6 +706,8 @@ footer {
     float: right;
     position: relative;
     top: -1px;
+    color:#6872ae;
+    font-weight:bold;
 }
 
 .footer-activity-block label {
@@ -694,3 +778,79 @@ footer {
     position: relative;
     top: 12px;
 }
+
+
+/*--------------------------------------------------------*/
+/*Leadership*/
+/*--------------------------------------------------------*/
+
+
+
+
+
+#leadership .founder-1{
+    height:740px;
+    background: url('../img/koshevets.png');
+    background-size: cover;
+    background-position: 40% 20%;
+
+}
+
+.founder-1-text{
+    font-family: "Roboto Light", sans-serif;
+    font-size: 22px;
+    color:#7a7a7a;
+    position: absolute;
+    left:50%;
+    top:300px;
+    text-indent: 40px;
+    line-height: 2;
+    text-align: left;
+}
+
+.blue-text{
+    color:#2a3890;
+}
+
+.white-text{
+    color:#f2f2f2;
+}
+
+.write-us{
+    padding-bottom: 30px;
+}
+
+#about-mission .mission{
+    height:740px;
+    background: url('../img/fund_mission.jpg');
+    background-size: cover;
+    background-position: 40% 20%;
+}
+
+.mission-text {
+    padding: 10px 100px;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    /* left: 50%; */
+    top: 280px;
+    text-indent: 40px;
+    line-height: 2;
+    text-align: justify;
+}
+
+.mission-header {
+    /* padding: 10px 100px; */
+    font-family: "Roboto Light", sans-serif;
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    left: 50%;
+    margin-left: -91px;
+    top: 200px;
+    text-indent: 40px;
+    line-height: 2;
+    text-align: center;
+}
+

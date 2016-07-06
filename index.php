@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./js/libs/superslides-0.6.2/dist/stylesheets/superslides.css">
     <script src="./js/jquery-2.2.4.js"></script>
     <script src="./js/libs/superslides-0.6.2/dist/jquery.superslides.js"></script>
+    <script src="./js/libs/html5shiv.js"></script>
 
 </head>
 <body>
@@ -17,39 +18,51 @@
             <ul class="slides-container">
                 <li>
                     <img src="./img/fon_1.jpg"  alt="">
+                    <div class="slider-content">
+                        <p class="blue-text"> <b>Робити</b> добро легше, ніж <b>бути</b> добрим</p>
+                        <p class="author blue-text">
+                            Ж. Вольфрам
+                        </p>
+
+                        <div class="donate">
+                            <a href="#">DONATE</a>
+                        </div>
+                    </div>
                 </li>
                 <li>
                     <img src="./img/fon_2.jpg"  alt="">
+                    <div class="slider-content white-text">
+                        <p> Ми підтримуємо...</p>
+                        <div class="donate white-text">
+                            <a href="#current-programs" id="to-current-programs">Деталі</a>
+                        </div>
+                    </div>
                 </li>
                 <li>
                     <img src="./img/fon_3.jpg"  alt="">
+                    <div class="slider-content white-text">
+                        <p>ОСТАННІ НОВИНИ...</p>
+                        <div class="donate">
+                            <a href="#news" id="toNews">Деталі</a>
+                        </div>
+                    </div>
                 </li>
+
             </ul>
             <nav class="slides-navigation">
                 <a href="#" class="next"></a>
                 <a href="#" class="prev"></a>
             </nav>
-            <div class="slider-content">
-                <p> <b>Робити</b> добро легше, ніж <b>бути</b> добрим</p>
-                <p class="author">
-                    Ж. Вольфрам
-                </p>
 
-                <div class="donate">
-                    <a href="#">DONATE</a>
-                </div>
-            </div>
         </div>
     </section>
     <section id="activity">
         <div class="wrapper">
             <article id="fund_mission">
-                <p>	<span class="headings">Місія фонду </span> полягає в допомозі ... Благодійна діяльність в ширшому значенні це дія
-                    по наданню безпосередньо чи обслуговуванню благодійної допомоги благодійника, як соціально
-                    значуща функція, реалізована через впорядкований та визначений законодавством вид діяльності —
-                    тому не є синонімом благодійництва і схожа лише за призначенням. </p>
+                <p>	<span class="headings">Місія фонду </span> полягає у 
+                    розвитку громадянського суспільства, підтримці та підвищенні соціальних благ населення України. </p>
 
-                <a href="#">Детальніше Про Місію Фонду</a>
+                <a href="about-mission.php">Детальніше Про Місію Фонду</a>
             </article>
             <div class="activity-fond">
                 <p class="block-header">
@@ -120,7 +133,8 @@
                     цілого спектру напрямків від підготовки військових, підтримки їх в зоні бойових дій та їхніх сімей у тилу
                     до реабілітації та адаптації їх до життя після війни.</p></div>
     </section>
-    <section class="about-us">
+
+    <section class="about-us"><a id="about-us-anchor"></a>
         <div class="wrapper">
             <article class="about-us-article">
                 <p class="about-us-title">Про Фонд</p>
@@ -146,7 +160,7 @@
             </article>
         </div>
     </section>
-    <section class="current-programs">
+    <section class="current-programs" id="current-programs">
         <div class="wrapper">
             <h2 class="block-header">
                 ДІЮЧІ ПРОГРАМИ
@@ -193,10 +207,27 @@
                     </div>
                 </div>
             </div>
-            <h3 class="write-us-header">НАПИШІТЬ НАМ</h3>
-            <div class="feedback-link">
-                <a href="#">НАПИСАТИ</a>
-            </div>
+
+        </div>
+    </section>
+    <section id="news" class="news">
+        <p class="news-title">Новини</p>
+        <img src="./img/america.png">
+        <div class="wrapper">
+
+            <p>  День незалежності вважається днем народження Сполучених Штатів як вільної і незалежної країни. Більшість американців називають це свято просто за його датою - «Четверте липня».</p>
+            <p>    Свято нагадує про те, що 4 липня 1776 було підписано Декларацію незалежності. У той час жителі 13 британських колоній, які розташовувалися уздовж східного узбережжя сьогоднішньої території Сполучених Штатів, вели війну з англійським королем і парламентом, оскільки вважали, що ті поводяться з ними несправедливо. Війна почалась у 1775 році. </p>
+            <p>    Протягом своєї історії Сполучені Штати Америки є прикладом демократичного суспільства, заснованого на верховенстві закону і повної поваги до прав людини, осередком цивілізаційного вибору сучасності, гарантом миру, безпеки й стабільності світового ладу. </p>
+            <p>    Останні події в Україні продемонстрували міцне партнерство між нашими держави у відстоюванні демократії та свободи, що є дуже важливим для Українського народу. </p>
+            <p>    Ми переконані, що партнерські відносини з Сполученими Штатами Америки й надалі будуть зміцнюватись та сприятимуть взаємовигідному соціально-політичному, торгово-економічну та благодійному співробітництву для обох держав.  </p>
+            <p>   Від імені нашого Благодійного Фонду «Стрічка Надії» щиро вітаємо Сполучені Штати Америки з нагоди Дня Незалежності та бажаємо процвітання та мирного неба! </p>
+
+        </div>
+    </section>
+    <section class="write-us">
+        <h3 class="write-us-header">НАПИШІТЬ НАМ</h3>
+        <div class="feedback-link">
+            <a href="#">НАПИСАТИ</a>
         </div>
     </section>
     <?php include('./elements/footer.php')?>
