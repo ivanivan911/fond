@@ -46,13 +46,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 }
 
-body {
+/*body {
     min-width:1300px;
     width: auto !important;
     width:1300px;
     margin: 0 auto;
     position: relative;
-}
+}*/
 
 .wrapper {
     width: 84.61538461538461%;
@@ -120,7 +120,7 @@ header {
 }
 
 #leadership .scroll-header{
-    background: inherit;
+    background: rgba(240, 240, 240, 0.8);
 }
 
 .scroll-header-logo {
