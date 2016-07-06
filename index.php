@@ -47,6 +47,10 @@
                         </div>
                     </div>
                 </li>
+                <li>
+                    <iframe class="video-backstage" src="https://www.youtube.com/embed/Lf6I2tBZBCc?wmode=transparent&amp;autoplay=0&amp;&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe> 
+                </li>
+
 
             </ul>
             <nav class="slides-navigation">
@@ -232,6 +236,5 @@
     </section>
     <?php include('./elements/footer.php')?>
     <script type="text/javascript" src="js/main.js"></script>
-
 </body>
 </html>

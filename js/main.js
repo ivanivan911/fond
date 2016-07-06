@@ -111,4 +111,18 @@ $(document).ready(function() {
         return false;
     });
 
+    $('#slides').on('animated.slides', function () {
+        var current_index = $(this).superslides('current');
+
+        if (current_index == 3) { // third slide
+            $(".video-backstage").attr("src", $(".video-backstage").attr("src").replace("autoplay=0", "autoplay=1"));
+
+
+
+
+        }
+
+    });
+   
+
 });
