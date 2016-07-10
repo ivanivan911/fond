@@ -47,15 +47,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 body {
-    min-width:1300px;
-    width: auto !important;
-    width:1300px;
+    min-width:800px;
+    max-width: 1300px;
     margin: 0 auto;
     position: relative;
 }
 
 .wrapper {
-    width: 84.61538461538461%;
+    width: 95%;
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -63,7 +62,7 @@ body {
 /*Header*/
 
 header {
-    position: fixed;
+    position: relative;
     z-index: 4;
     height: 191px;
     min-width: 900px;
@@ -77,9 +76,10 @@ header {
 }
 
 .header-nav {
-    min-width: 650px;
-    left: 50%;
+    height: 110px;
     position: absolute;
+    left: 50%;
+    margin-left: -280px;
 }
 
 .header-nav-list-item {
@@ -89,20 +89,18 @@ header {
     font-size: 15px;
 }
 
-
-
 .header-nav-link{
     display: inline-block;
     text-decoration: none;
     padding: 57px 30px 12px;
-    color: #fff;
-    /**/
+    color: #20257f;
     background-size: 100% 200%;
     background-image: linear-gradient(to bottom, transparent 50%, #20257f 50%);
     transition: background-position 0.3s;
 }
 
 .header-nav-link:hover {
+    color: #fff;
     background-position: 0 -100%;
 }
 
@@ -133,7 +131,9 @@ header {
 
 .scroll-header-nav {
     height: 110px;
-    float: right;
+    position: absolute;
+    left: 50%;
+    margin-left: -280px;
 }
 
 .scroll-header-nav-list-item {
@@ -784,19 +784,67 @@ footer {
 /*Leadership*/
 /*--------------------------------------------------------*/
 
+.leadership-header {
+    height: 110px;
+    position: fixed;
+    min-width:800px;
+    max-width: 1300px;
+    width: 100%;
+    background: rgba(240, 240, 240, 0.8);
+    z-index: 4;
+}
 
+.leadership-header-logo {
+    padding-top: 10px;
+    float: left;
+    width: 162px;
+    height: 159px;
+}
 
+.leadership-header-logo-img {
+    height: 90px;
+}
 
+.leadership-header-nav {
+    height: 110px;
+    position: absolute;
+    left: 50%;
+    margin-left: -280px;
+}
 
-#leadership .founder-1{
+.leadership-header-nav-list-item {
+    overflow: hidden;
+    float: left;
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 15px;
+}
+
+.leadership-header-nav-list-item-link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 48px 24px 48px;
+    color: #fff;
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, transparent 50%, #20257f 50%);
+    transition: background-position 0.3s;
+}
+
+.leadership-header-nav-list-item-link:hover {
+    background-position: 0 -100%;
+}
+
+.leadership-header-nav-list-item-link-active {
+    background: #20257f;
+}
+
+.leadership-founder-1 {
     height:740px;
     background: url('../img/koshevets.png');
     background-size: cover;
     background-position: 40% 20%;
-
 }
 
-.founder-1-text{
+.leadership-founder-1-text {
     font-family: "Roboto Light", sans-serif;
     font-size: 22px;
     color:#7a7a7a;
@@ -808,17 +856,44 @@ footer {
     text-align: left;
 }
 
-.blue-text{
+.leadership-blue-text {
     color:#2a3890;
 }
 
-.white-text{
-    color:#f2f2f2;
-}
-
-.write-us{
+.leadership-write-us {
     padding-bottom: 30px;
 }
+
+.leadership-write-us-header {
+    color: #7a7a7a;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family: "Roboto Light", sans-serif;
+}
+
+.leadership-feedback-link {
+    width: 170px;
+    height: 40px;
+    background-color: #2a3890;
+    text-align: center;
+    border-radius: 25px;
+    margin: 0 auto 0;
+}
+
+.leadership-feedback-link a {
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 2;
+}
+
+
 
 #about-mission .mission{
     height:740px;
@@ -833,7 +908,7 @@ footer {
     font-size: 22px;
     color: white;
     position: absolute;
-    /* left: 50%; */
+    !* left: 50%;
     top: 280px;
     text-indent: 40px;
     line-height: 2;
@@ -841,13 +916,13 @@ footer {
 }
 
 .mission-header {
-    /* padding: 10px 100px; */
+    padding: 10px 100px;
     font-family: "Roboto Light", sans-serif;
     font-size: 22px;
     color: white;
     position: absolute;
     left: 50%;
-    margin-left: -91px;
+    margin-left: -180px;
     top: 200px;
     text-indent: 40px;
     line-height: 2;
@@ -869,4 +944,3 @@ footer {
     position: absolute;
     top:100px;
 }
-
