@@ -9,6 +9,8 @@
     <script src="./js/jquery-2.2.4.js"></script>
     <script src="./js/libs/superslides-0.6.2/dist/jquery.superslides.js"></script>
     <script src="./js/libs/html5shiv.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+
 
 </head>
 <body>
@@ -16,6 +18,7 @@
     <section id="main-banner">
         <div id="slides">
             <ul class="slides-container">
+
                 <li>
                     <img src="./img/fon_1.jpg"  alt="">
                     <div class="slider-content">
@@ -47,6 +50,11 @@
                         </div>
                     </div>
                 </li>
+                <li>
+                    <div id="video-placeholder"></div>
+                </li>
+
+
 
             </ul>
             <nav class="slides-navigation">
@@ -208,6 +216,7 @@
                 </div>
             </div>
 
+
         </div>
     </section>
     <section id="news" class="news">
@@ -232,6 +241,5 @@
     </section>
     <?php include('./elements/footer.php')?>
     <script type="text/javascript" src="js/main.js"></script>
-
 </body>
 </html>

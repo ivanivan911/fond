@@ -26,7 +26,7 @@ $(document).ready(function() {
     $('#slides').superslides({
         play: 30000,
         slide_easing: 'easeInOutCubic',
-        slide_speed: 800,
+        slide_speed: 1000,
         pagination: true,
         scrollable: true,
         inherit_height_from:$('#main-banner'),
@@ -111,4 +111,97 @@ $(document).ready(function() {
         return false;
     });
 
+
+
+
 });
+var videoIndex = false;
+var logoResize = false;
+var slidingStatus = false;
+$('#slides').on('animated.slides', function () {
+    var current_index = $(this).superslides('current');
+    if(current_index != 3 && videoIndex){
+        if(!slidingStatus){
+            $('#slides').superslides('start');
+        }
+        $(".header-nav-list").slideDown('slow');
+        player.stopVideo();
+        if(logoResize){
+            logoResize = false;
+            $(".header-logo-img").animate({
+                width: '+=50px'
+            }, 1000);
+        }
+
+    }
+    if (current_index == 3) { // third slide
+        //$(".video-backstage").attr("src", $(".video-backstage").attr("src").replace("autoplay=0", "autoplay=1"));
+        videoIndex = true;
+        logoResize = true;
+        needSwitch = true;
+        slidingStatus = true;
+        $('#slides').superslides('stop');
+        player.playVideo();
+        $(".header-nav-list").slideUp('slow');
+        $(".header-logo-img").animate({
+            width: '-=50px'
+        }, 1000);
+    }
+});
+
+
+var player;
+var needSwitch = false;
+
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('video-placeholder', {
+        videoId: 'Lf6I2tBZBCc',
+        playerVars: {
+            color: 'white',
+            controls:0
+        },
+        events: {
+            onReady: initialize,
+            'onStateChange': onPlayerStateChange
+        }
+    });
+
+};
+
+
+
+
+function initialize(){
+
+    // Update the controls on load
+
+
+    updateProgressBar();
+
+    // Clear any old interval.
+    clearInterval(time_update_interval);
+
+    // Start interval to update elapsed time display and
+    // the elapsed part of the progress bar every second.
+    time_update_interval = setInterval(function () {
+        updateTimerDisplay();
+        updateProgressBar();
+    }, 1000)
+
+}
+
+function onPlayerStateChange(state){
+    if(state.data === 0){
+        //$('#slides').superslides('animate', ['next'])
+    }
+    if(state.data === 1){
+        setTimeout(function () {
+            if(needSwitch){
+                $('#slides').superslides('animate', ['next']);
+                needSwitch = false;
+            }
+        }, (player.getDuration() - 1) * 1000 );
+    }
+};
+
+
