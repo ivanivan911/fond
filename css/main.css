@@ -62,9 +62,10 @@ body {
 /*Header*/
 
 header {
-    position: relative;
+    position: fixed;
     z-index: 4;
     height: 191px;
+    width: 100%;
     min-width: 900px;
 }
 
@@ -92,7 +93,7 @@ header {
 .header-nav-link{
     display: inline-block;
     text-decoration: none;
-    padding: 57px 30px 12px;
+    padding: 48px 30px 48px;
     color: #20257f;
     background-size: 100% 200%;
     background-image: linear-gradient(to bottom, transparent 50%, #20257f 50%);
