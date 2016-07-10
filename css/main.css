@@ -47,15 +47,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 body {
-    min-width:800px;
-    max-width: 1300px;
+    min-width:1300px;
     margin: 0 auto;
     position: relative;
 }
 
 .wrapper {
     width: 95%;
-    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -222,8 +220,13 @@ header {
 }
 
 #activity {
+    margin: 0 auto;
     padding-top: 60px;
     margin-top: -191px;
+}
+
+#activity .wrapper{
+    max-width: 1280px;
 }
 
 #activity::after {
@@ -267,7 +270,7 @@ header {
 
 #activity .wrapper{
     width: auto;
-    max-width: 1300px;
+
     margin: 0 auto;
 }
 
@@ -399,6 +402,23 @@ header {
     top: 40px;
     position: relative;
     width: 100%;
+    max-width: 1300px;
+}
+
+#hidden-details-rect1:before, #hidden-details-rect1:after{
+    left:13%;
+}
+
+#hidden-details-rect2:before, #hidden-details-rect2:after{
+    left:38%;
+}
+
+#hidden-details-rect3:before, #hidden-details-rect3:after{
+    left:63%;
+}
+
+#hidden-details-rect4:before, #hidden-details-rect4:after{
+    left:88%;
 }
 
 .hidden-details:after,
@@ -416,13 +436,13 @@ header {
     border-color: rgba(255, 255, 255, 0);
     border-bottom-color:  #f2f2f2;
     border-width: 19px;
-    left: 50%;
+    //left: 50%;
     margin-left: -19px;
 }
 .hidden-details:before {
     border-bottom-color:  #c6e0a6;
     border-width: 20px;
-    left: 50%;
+    //left: 50%;
     margin-left: -20px;
 }
 
@@ -465,6 +485,7 @@ header {
     margin-top: 40px;
     border-top: 1px solid #c6e0a6;
     border-bottom: 1px solid #c6e0a6;
+    padding-bottom: 40px;
 }
 
 .phrase-text{
@@ -594,6 +615,10 @@ b {
 
 .feedback-link:hover {
     background-color: #0482c6;
+}
+
+.write-us{
+    height:140px;
 }
 
 .write-us-header {
@@ -780,6 +805,10 @@ footer {
     top: 12px;
 }
 
+.white-text{
+    color:white;
+}
+
 
 /*--------------------------------------------------------*/
 /*Leadership*/
@@ -789,7 +818,6 @@ footer {
     height: 110px;
     position: fixed;
     min-width:800px;
-    max-width: 1300px;
     width: 100%;
     background: rgba(240, 240, 240, 0.8);
     z-index: 4;
@@ -857,7 +885,7 @@ footer {
     text-align: left;
 }
 
-.leadership-blue-text {
+.leadership-blue-text, .blue-text {
     color:#2a3890;
 }
 
@@ -909,7 +937,7 @@ footer {
     font-size: 22px;
     color: white;
     position: absolute;
-    !* left: 50%;
+    left: 50%;
     top: 280px;
     text-indent: 40px;
     line-height: 2;
