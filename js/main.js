@@ -24,7 +24,7 @@ $(window).on("scroll", function() {
 
 $(document).ready(function() {
     $('#slides').superslides({
-        play: 30000,
+        play: 333330000,
         slide_easing: 'easeInOutCubic',
         slide_speed: 800,
         pagination: true,
@@ -111,18 +111,53 @@ $(document).ready(function() {
         return false;
     });
 
-    $('#slides').on('animated.slides', function () {
-        var current_index = $(this).superslides('current');
-
-        if (current_index == 3) { // third slide
-            $(".video-backstage").attr("src", $(".video-backstage").attr("src").replace("autoplay=0", "autoplay=1"));
 
 
-
-
-        }
-
-    });
-   
 
 });
+
+$('#slides').on('animated.slides', function () {
+    var current_index = $(this).superslides('current');
+
+    if (current_index == 3) { // third slide
+        //$(".video-backstage").attr("src", $(".video-backstage").attr("src").replace("autoplay=0", "autoplay=1"));
+        player.playVideo();
+    }
+});
+
+
+var player;
+
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('video-placeholder', {
+        width: 600,
+        height: 400,
+        videoId: 'Lf6I2tBZBCc',
+        playerVars: {
+            color: 'white'            
+        },
+        events: {
+            onReady: initialize
+        }
+    });
+}
+
+function initialize(){
+
+    // Update the controls on load
+    updateTimerDisplay();
+    updateProgressBar();
+
+    // Clear any old interval.
+    clearInterval(time_update_interval);
+
+    // Start interval to update elapsed time display and
+    // the elapsed part of the progress bar every second.
+    time_update_interval = setInterval(function () {
+        updateTimerDisplay();
+        updateProgressBar();
+    }, 1000)
+
+}
+
+
