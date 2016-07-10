@@ -16,7 +16,7 @@
     <section id="main-banner">
         <div id="slides">
             <ul class="slides-container">
-                <li>
+                <!--<li>
                     <img src="./img/fon_1.jpg"  alt="">
                     <div class="slider-content">
                         <p class="blue-text"> <b>Робити</b> добро легше, ніж <b>бути</b> добрим</p>
@@ -46,9 +46,10 @@
                             <a href="#news" id="toNews">Деталі</a>
                         </div>
                     </div>
-                </li>
+                </li>-->
                 <li>
-                    <iframe class="video-backstage" src="https://www.youtube.com/embed/Lf6I2tBZBCc?wmode=transparent&amp;autoplay=0&amp;&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe> 
+                    <iframe class="video-backstage" width=”16″ height=”11″ src="https://www.youtube.com/embed/Lf6I2tBZBCc?wmode=transparent&amp;autoplay=0&amp;&showinfo=0&controls=0" allowtransparency
+                            frameborder="0" allowfullscreen></iframe>
                 </li>
 
 
