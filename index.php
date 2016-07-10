@@ -236,8 +236,21 @@
     <section class="write-us">
         <h3 class="write-us-header">НАПИШІТЬ НАМ</h3>
         <div class="feedback-link">
-            <a href="#">НАПИСАТИ</a>
+            <a href="#" id="go">НАПИСАТИ</a>
         </div>
+        <!--Modal window-->
+
+            <div id="modal_form">
+                <h3>Зв'яжіться з нами</h3>
+                <input type="text" class="modal_form_input modal_name">
+                <input type="email" class="modal_form_input modal_email">
+                <input type="text" class="modal_form_input modal_phone">
+                <textarea name="" id="" cols="30" rows="10" class="modal_form_input modal_message"></textarea>
+                <input type="submit" class="modal_form_submit" value="Надіслати">
+            </div>
+            <div id="overlay"></div>
+
+        <!--end of modal window-->
     </section>
     <?php include('./elements/footer.php')?>
     <script type="text/javascript" src="js/main.js"></script>

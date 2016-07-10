@@ -205,3 +205,29 @@ function onPlayerStateChange(state){
 };
 
 
+/*Modal window*/
+
+$(document).ready(function() {
+    $('a#go').click( function(event){
+        event.preventDefault();
+        $('header').css('display', 'none');
+        $('#overlay').fadeIn(400,
+            function(){
+                $('#modal_form')
+                    .css('display', 'block')
+                    .animate({opacity: 1, top: '50%'}, 200);
+            });
+    });
+
+    $('#modal_close, #overlay').click( function(){
+        $('header').css('display', 'block');
+        $('#modal_form')
+            .animate({opacity: 0, top: '45%'}, 200,
+                function(){ // пoсле aнимaции
+                    $(this).css('display', 'none');
+                    $('#overlay').fadeOut(400);
+                }
+            );
+    });
+});
+
