@@ -145,7 +145,7 @@ header {
 /*Banner*/
 
 #main-banner {
-    height: 880px;
+    height: 780px;
     position: relative;
     top: -191px;
 }
@@ -934,12 +934,12 @@ footer {
     width: 100%;
     height:100%;
     position: absolute;
-    top:95px;
+
 }
 
 #video-placeholder{
     width:100%;
-    height: 760px;
+    height:100%;
     z-index: 999;
     position: absolute;
     top:100px;
