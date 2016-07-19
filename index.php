@@ -161,7 +161,6 @@
         </div>
     </section>
     <section class="current-programs" id="current-programs">
-        <div class="wrapper">
             <h2 class="block-header">
                 ДІЮЧІ ПРОГРАМИ
             </h2>
@@ -175,14 +174,6 @@
                     </div>
                 </div>
                 <div class="box box1">
-                    <div class="box-text">
-                        <span class="">РЕГІОНАЛЬНА ДОПОМОГА</span>
-                    </div>
-                    <div class="box-details programs-box">
-                        <a href="#">ДЕТАЛІ...</a>
-                    </div>
-                </div>
-                <div class="rect-vert">
                     <div class="box-text">
                         <span class="">РЕГІОНАЛЬНА ДОПОМОГА</span>
                     </div>
@@ -207,9 +198,6 @@
                     </div>
                 </div>
             </div>
-
-
-        </div>
     </section>
     <section id="news" class="news">
         <p class="news-title">Новини</p>
