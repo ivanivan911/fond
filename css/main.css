@@ -121,14 +121,17 @@ header {
 }
 
 .scroll-header-logo {
+    margin: 0 !important;
     padding-top: 10px;
 }
 
 .scroll-header-logo-img {
-    height: 90px;
+    height: 90px !important;
+    width: 90px !important;
 }
 
 .scroll-header-nav {
+    display: block !important;
     height: 110px;
     position: absolute;
     left: 50%;
@@ -144,9 +147,8 @@ header {
 /*Banner*/
 
 #main-banner {
-    height: 780px;
+    //min-height: 780px;
     position: relative;
-    top: -191px;
 }
 
 .next{
@@ -222,7 +224,6 @@ header {
 #activity {
     margin: 0 auto;
     padding-top: 60px;
-    margin-top: -191px;
 }
 
 #activity .wrapper{
@@ -1067,8 +1068,8 @@ footer {
 
 #video-placeholder{
     width:100%;
-    height:100%;
+    height:113.7%;
     z-index: 999;
     position: absolute;
-    top:100px;
+    top:-50px;
 }

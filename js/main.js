@@ -23,6 +23,9 @@ $(window).on("scroll", function() {
 /**/
 
 $(document).ready(function() {
+    var heightR = $(window).height();
+    $('#main-banner').height(heightR);
+
     $('#slides').superslides({
         play: 30000,
         slide_easing: 'easeInOutCubic',
@@ -139,18 +142,17 @@ $('#slides').on('animated.slides', function () {
     needSwitch = false;
     var current_index = $(this).superslides('current');
     if(current_index != 3 && videoIndex){
+        $(".header-logo").css('margin-top','0');
+        $(".header-nav").css('display','block');
         if(slidingStatus === true){
             slidingStatus = false;
             $('#slides').superslides('play',30000);
         }
         $(".header-nav-list").slideDown('slow');
         player.stopVideo();
-        if(logoResize){
-            logoResize = false;
-            $(".header-logo-img").animate({
-                width: '+=50px'
-            }, 1000);
-        }
+        $(".header-logo-img").animate({
+            width: '140px'
+        }, 1000);
     }
     if (current_index == 3) {
         videoIndex = true;
@@ -159,10 +161,12 @@ $('#slides').on('animated.slides', function () {
         slidingStatus = true;
         $('#slides').superslides('stop');
         player.playVideo();
-        $(".header-nav-list").slideUp('slow');
+        $(".header-nav").css('display','none');
         $(".header-logo-img").animate({
-            width: '-=50px'
+            width: '80px'
         }, 1000);
+        $(".header-logo").css('margin-top','20px');
+
     }
 });
 
@@ -176,7 +180,6 @@ function onYouTubeIframeAPIReady() {
             controls:0
         },
         events: {
-            onReady: initialize,
             'onStateChange': onPlayerStateChange
         }
     });
@@ -185,17 +188,6 @@ function onYouTubeIframeAPIReady() {
 
 
 
-function initialize(){
-    updateProgressBar();
-    // Clear any old interval.
-    clearInterval(time_update_interval);
-    // Start interval to update elapsed time display and
-    // the elapsed part of the progress bar every second.
-    time_update_interval = setInterval(function () {
-        updateTimerDisplay();
-        updateProgressBar();
-    }, 1000)
-}
 
 function onPlayerStateChange(state){
     if(state.data === 1){

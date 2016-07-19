@@ -244,7 +244,7 @@
 
         <!--end of modal window-->
     </section>
-    <?php include('./elements/footer.php')?>
+    <?php include('./elements/footer.php')?>   
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
