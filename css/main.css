@@ -505,29 +505,28 @@ b {
 /*Current programs*/
 
 .current-programs {
-
-    min-height: 1000px;
     padding-bottom: 30px;
-
 }
 
 .box {
     height: 338px;
-    width: 338px;
+    width: 25%;
     float: left;
-    margin: 20px 20px;
-    background: url('../img/box.jpg') top center no-repeat;
-    /*background-size: cover;*/
+    margin: 20px 0;
+    border-left: 1px solid #909090;
+    border-top: 1px solid #909090;
+    border-bottom: 1px solid #909090;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
 }
 
-.rect-vert {
-    height: 718px;
-    width: 338px;
-    margin: 20px 20px;
-    background-color: green;
-    float: right;
-    background: url('../img/rect-vert.jpg') top center no-repeat;
-    /*background-size: cover;*/
+.box:first-child {
+    border-left: none;
+}
+
+.box span {
+    color: #000;
 }
 
 .box:hover {
@@ -535,14 +534,9 @@ b {
     /*background-size: cover;*/
 }
 
-.rect-vert:hover {
-    background: url('../img/rect-vert-hover.jpg') top center no-repeat;
-    /*background-size: cover;*/
-}
-
 .box-header {
     font-family: "Roboto Medium", sans-serif;
-    color: white;
+    color: #000;
     font-size: 35px;
     padding-top: 40px;
 }
