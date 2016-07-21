@@ -73,53 +73,53 @@
                 <a href="about-mission.php">Детальніше Про Місію Фонду</a>
             </article>
             <div class="activity-fond">
-                <p class="block-header">
-                    ДІЯЛЬНІСТЬ
-                </p>
-                <div class="activity-rectangle rect1">
-                    <div class="box-text">
-              <span>
-                <span class="text-add">Розвиток</span>
-                соціального потенціалу регіонів України
-              </span>
+                    <p class="block-header">
+                        ДІЯЛЬНІСТЬ
+                    </p>
+                    <div class="activity-rectangle rect1">
+                        <div class="box-text">
+                  <span>
+                    <span class="text-add">Розвиток</span>
+                    соціального потенціалу регіонів України
+                  </span>
+                        </div>
+                        <div class="box-details">
+                            <a href="#">ДЕТАЛІ...</a>
+                        </div>
                     </div>
-                    <div class="box-details">
-                        <a href="#">ДЕТАЛІ...</a>
+                    <div class="activity-rectangle rect2">
+                        <div class="box-text">
+                  <span>
+                    <span class="text-add">Підтримка </span>
+                    проблемних регіонів України та вимушених переселенців з Донбасу та Криму</span>
+                        </div>
+                        <div class="box-details">
+                            <a href="#">ДЕТАЛІ...</a>
+                        </div>
                     </div>
-                </div>
-                <div class="activity-rectangle rect2">
-                    <div class="box-text">
-              <span>
-                <span class="text-add">Підтримка </span>
-                проблемних регіонів України та вимушених переселенців з Донбасу та Криму</span>
+                    <div class="activity-rectangle rect3">
+                        <div class="box-text">
+                  <span>
+                    <span class="text-add">Сприяння </span>
+                    розвитку та підтримка соціально незахищених верств населення України
+                  </span>
+                        </div>
+                        <div class="box-details">
+                            <a href="#">ДЕТАЛІ...</a>
+                        </div>
                     </div>
-                    <div class="box-details">
-                        <a href="#">ДЕТАЛІ...</a>
-                    </div>
-                </div>
-                <div class="activity-rectangle rect3">
-                    <div class="box-text">
-              <span>
-                <span class="text-add">Сприяння </span>
-                розвитку та підтримка соціально незахищених верств населення України
-              </span>
-                    </div>
-                    <div class="box-details">
-                        <a href="#">ДЕТАЛІ...</a>
-                    </div>
-                </div>
-                <div class="activity-rectangle rect4">
-                    <div class="box-text">
-              <span>
-                <span class="text-add">Допомога </span>
-                учасникам та ветеранам АТО і їхнім сім’ям </span>
+                    <div class="activity-rectangle rect4">
+                        <div class="box-text">
+                  <span>
+                    <span class="text-add">Допомога </span>
+                    учасникам та ветеранам АТО і їхнім сім’ям </span>
 
+                        </div>
+                        <div class="box-details">
+                            <a href="#">ДЕТАЛІ...</a>
+                        </div>
                     </div>
-                    <div class="box-details">
-                        <a href="#">ДЕТАЛІ...</a>
-                    </div>
-                </div>
-                <div class="clear-activity"></div>
+                    <div class="clear-activity"></div>
 
             </div>
         </div>

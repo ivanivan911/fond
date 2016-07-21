@@ -274,10 +274,10 @@ header {
 }
 
 .activity-rectangle {
-    width: 290px;
+    width: 23%;
     height: 335px;
     float: left;
-    margin: 45px 15px 0;
+    margin: 45px 1% 0;
     cursor: pointer;
 }
 
