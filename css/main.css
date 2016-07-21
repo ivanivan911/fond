@@ -177,7 +177,7 @@ header {
 .slider-content{
     position: absolute;
     z-index: 3;
-    bottom: 301px;
+    top:50%;
     text-align: center;
     width: 100%;
 }
@@ -1022,7 +1022,7 @@ footer {
     height:740px;
     background: url('../img/fund_mission.jpg');
     background-size: cover;
-    background-position: 40% 20%;
+    background-position: 40% 70%;
 }
 
 .mission-text {
