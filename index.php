@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Головна Сторінка</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Благодійний фонд стрічка Надії</title>
+    <meta name="description" content="Благодійний фонд стрічка надії">
+
+    <meta name="keywords" content="Благодійний фонд,стрічка надії ">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="./js/libs/superslides-0.6.2/dist/stylesheets/superslides.css">
