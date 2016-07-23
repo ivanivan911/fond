@@ -227,3 +227,28 @@ $(document).ready(function() {
     });
 });
 
+/*Form validation*/
+
+$(document).ready(function(){
+
+    function checkInputs() {
+
+        $('.modal_form_input').each(function(i, elem) {
+
+            if(elem.value == '') {
+                $(elem).css('border-top', '2px solid #f00');
+                $(elem).next().html('Будь ласка, введіть ' + $(elem).attr('placeholder').charAt(0).toLowerCase()
+                    + $(elem).attr('placeholder').substr(1))
+            } else {
+                $(elem).css('border-top', '2px solid #353e26');
+                $(elem).next().html('');
+            }
+
+        });
+
+    }
+
+    $('.modal_form_input').on('change', checkInputs);
+    $('.modal_form_submit').on('click', checkInputs);
+
+});
