@@ -273,11 +273,25 @@ header {
 }
 
 .activity-rectangle {
-    width: 23%;
-    height: 335px;
+    width: 25%;
+    height: 300px;
     float: left;
-    margin: 45px 1% 0;
+    margin-top: 20px;
     cursor: pointer;
+    border-left: 1px solid #909090;
+    border-top: 1px solid #909090;
+    border-bottom: 1px solid #909090;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.activity-rectangle:hover {
+
+    -webkit-box-shadow: inset 0px 0px 37px 2px #909090;
+    -moz-box-shadow: inset 0px 0px 37px 2px #909090;
+    box-shadow: inset 0px 0px 37px 2px #909090;
 }
 
 
@@ -301,25 +315,7 @@ header {
     background-size: cover;
 }
 
-.rect1:hover {
-    background: url('../img/rect1_hover.jpg') top center no-repeat;
-    background-size: cover;
-}
 
-.rect2:hover {
-    background: url('../img/rect2_hover.jpg') top center no-repeat;
-    background-size: cover;
-}
-
-.rect3:hover {
-    background: url('../img/rect3_hover.jpg') top center no-repeat;
-    background-size: cover;
-}
-
-.rect4:hover {
-    background: url('../img/rect4_hover.jpg') top center no-repeat;
-    background-size: cover;
-}
 
 .box-text{
     font-family: "Roboto Medium", sans-serif;
@@ -528,7 +524,7 @@ b {
 }
 
 .box {
-    height: 0;
+    height:0;
     padding-bottom: 25%;
     width: 25%;
     float: left;
@@ -546,7 +542,6 @@ b {
 }
 
 .box:hover {
-    background-size:110%;
     -webkit-box-shadow: inset 0px 0px 37px 2px #909090;
     -moz-box-shadow: inset 0px 0px 37px 2px #909090;
     box-shadow: inset 0px 0px 37px 2px #909090;
@@ -885,7 +880,7 @@ footer {
 }
 
 #facebook-link {
-    background: url(../img/contacts.png) no-repeat -68px 1px;
+    background: url(../img/contacts.png) no-repeat -68px -29px;
     display: inline-block;
     height: 25px;
     width: 11px;
@@ -893,13 +888,17 @@ footer {
 }
 
 #facebook-link:hover {
-    background: url(../img/contacts.png) no-repeat -68px -29px;
+    background: url(../img/contacts.png) no-repeat -68px 1px;
 }
 
 .phone-number {
     text-decoration: none;
     color: #7a7a7a;
     font-size: 17px;
+}
+
+.phone-number:hover{
+    color: #2a3890;
 }
 
 .footer-social {
