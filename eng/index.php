@@ -60,60 +60,66 @@
                 <a href="#" class="prev"></a>
             </nav>
 
+
+
         </div>
     </section>
     <section id="activity">
             <article id="fund_mission">
-                <p>	<span class="headings">Місія фонду </span> полягає у 
-                    розвитку громадянського суспільства, підтримці та підвищенні соціальних благ населення України. </p>
+                <p>	<span class="headings"> The mission </span> is to fund the development of civil society,
+                    supporting and increasing social benefits in Ukraine.
+                </p>
 
-                <a href="about-mission.php">Детальніше Про Місію Фонду</a>
+                <a href="about-mission.php">MORE ABOUT MISSION FUND  </a>
             </article>
             <div class="activity-fond">
                     <p class="block-header">
-                        ДІЯЛЬНІСТЬ
+                        ACTIVITY
                     </p>
                     <div class="activity-rectangle rect1">
                         <div class="box-text">
                   <span>
-                    <span class="text-add">Розвиток</span>
-                    соціального потенціалу регіонів України
+
+                    <span class="text-add">The development</span>
+                    of social potential of regions of Ukraine
                   </span>
                         </div>
                         <div class="box-details">
-                            <a href="#">ДЕТАЛІ...</a>
+                            <a href="#">DETAILS ...</a>
                         </div>
                     </div>
                     <div class="activity-rectangle rect2">
                         <div class="box-text">
                   <span>
-                    <span class="text-add">Підтримка </span>
-                    проблемних регіонів України та вимушених переселенців з Донбасу та Криму</span>
+                    <span class="text-add"> Support </span>
+                    for problem regions of Ukraine and IDPs from Donbass and Crimea
+                  </span>
                         </div>
                         <div class="box-details">
-                            <a href="#">ДЕТАЛІ...</a>
+                            <a href="#">DETAILS ...</a>
                         </div>
                     </div>
                     <div class="activity-rectangle rect3">
                         <div class="box-text">
                   <span>
-                    <span class="text-add">Сприяння </span>
-                    розвитку та підтримка соціально незахищених верств населення України
+                    <span class="text-add"> Promoting </span>
+                    and supporting socially vulnerable groups Ukraine
                   </span>
                         </div>
                         <div class="box-details">
-                            <a href="#">ДЕТАЛІ...</a>
+                            <a href="#">DETAILS ...</a>
                         </div>
                     </div>
                     <div class="activity-rectangle rect4">
                         <div class="box-text">
                   <span>
-                    <span class="text-add">Допомога </span>
-                    учасникам та ветеранам АТО і їхнім сім’ям </span>
+                    <span class="text-add">Help </span>
+                     ATO members and veterans and their families
+                  </span>
 
                         </div>
                         <div class="box-details">
-                            <a href="#">ДЕТАЛІ...</a>
+                            <a href="#">DETAILS ...</a>
                         </div>
                     </div>
                     <div class="clear-activity"></div>
@@ -121,45 +127,52 @@
             </div>
 
         <div class="hidden-details-wrapper">
-                <div class="hidden-details" id="hidden-details-rect1"><p>Соціальний потенціал регіону бачимо як можливість громади
-                    забезпечувати найбільш сприятливі умови для населення. Надати можливість особистості задовольняти власні
-                    потреби та досягати успіхів – це перший крок до якісного та безпечного життя. Ми ставимо перед собою
-                    завдання акумулювати ресурси для підтримки ініціатив на конкурсній основі.</p></div>
-                <div class="hidden-details" id="hidden-details-rect2"><p>Лозунг “Україна – єдина” не має залишатися лише словами на
-                    плакатах. Усі українці відчувають наслідки кризи. Проте люди, які втратили свій дім та свободу, потребують
-                    сьогодні допомоги чи не найбільше. Крім того одним із напрямків нашої є діяльності є також підтримка українців,
-                    які наразі залишаються на окупованих територіях.</p>
+                <div class="hidden-details" id="hidden-details-rect1">
+                    <p>The social potential of the region see as an opportunity to the
+                        community to provide the most favorable conditions for the population. To give a personality to meet their needs
+                        and achieve success - is the first step to quality and safe life. We set ourselves the task to accumulate resources
+                        to support initiatives on a competitive basis.
+                    </p>
                 </div>
-                <div class="hidden-details" id="hidden-details-rect3"><p>Нестабільне економічне становище у країні призвело до того,
-                    що за межею бідності опиняється все більше українців. Акумулюючи кошти на гуманітарну допомогу, Фонд берез
-                    за мету допомогу соціально незахищеним верствам населення.</p>
+                <div class="hidden-details" id="hidden-details-rect2">
+                    <p>The slogan "Ukraine - the only" does not remain mere words on posters.
+                        All Ukrainian experiencing the crisis. However, people who have lost their home and freedom require care today is not the
+                        greatest. Also one of the directions of our activity is support for Ukrainian is currently remain in the occupied territories.
+                    </p>
                 </div>
-                <div class="hidden-details" id="hidden-details-rect4"><p>Війна у країні триває, а тому потреба у підтримці тих,
-                    хто боронить незалежність України досі є надзвичайно актуальною. Нам потрібно працювати над розвитком
-                    цілого спектру напрямків від підготовки військових, підтримки їх в зоні бойових дій та їхніх сімей у тилу
-                    до реабілітації та адаптації їх до життя після війни.</p></div>
+                <div class="hidden-details" id="hidden-details-rect3">
+                    <p>Unstable economic situation in the country led to the fact that the poverty line
+                        turns increasingly Ukrainian. Accumulating funds for humanitarian aid fund aimed march assist vulnerable populations.
+                    </p>
+                </div>
+                <div class="hidden-details" id="hidden-details-rect4">
+                    <p>The war continues in the country, and therefore need the support of
+                        those who defends the independence of Ukraine is still extremely important. We need to work on the development of a range
+                        of areas of military training, support them in the combat zone and their families in the rear of rehabilitation and adapting
+                        them for life after the war.
+                    </p>
+                </div>
         </div>    
     </section>
 
     <section class="about-us"><a id="about-us-anchor"></a>
         <div class="wrapper">
             <article class="about-us-article">
-                <p class="about-us-title">Про Фонд</p>
-                <p class="about-us-text">	Благодійна діяльність в ширшому значенні це дія по наданню безпосередньо чи обслуговуванню благодійної
-                    допомоги благодійника, як соціально значуща функція, реалізована через впорядкований та визначений
-                    законодавством вид діяльності — тому не є синонімом благодійництва і схожа лише за призначенням.
-                    Благодійна діяльність часто реалізується через організації такого спрямування (фонди, спілки, школи,
-                    лікарні, інтернати, заклади тощо), що є посередником між благодійниками та безпосередніми набувачами
-                    такої благодійності. Наприклад комп'ютер наданий школі чи ВНЗу є благодійністю для фахівців та учнів
-                    чи студентів доступ та користування котрим надається організовано саме довірена особа чи організація
-                    набувач пожертвуваного ресурсу, тобто — благодійна діяльність є надання та обслуговування самого акту
-                    і ресурсу благодійності для набувача цієї благодійності (пожертви).</p>
+                <p class="about-us-title">Foundation</p>
+                <p class="about-us-text">Charity in a broader sense is the act of providing service directly or charitable assistance benefactor as
+                    socially significant function, implemented through an orderly and defined by the legislation activity - so is not synonymous with
+                    charity and similar purpose only. Charity work is often implemented through organizations such direction (foundations, associations,
+                    schools, hospitals, orphanages, institutions, etc.) that appear between philanthropists and direct recipients of this charity. For example
+                    computer given school or the university is a charity for professionals and students or students access and use for which it is given organized
+                    trustee or grantee organization donated resources, that is - is to provide charity care and the act of charity and resource for purchaser of
+                    philanthropy (donations ).
+                </p>
             </article>
         </div>
     </section>
     <section class="current-programs" id="current-programs">
             <h2 class="block-header">
-                ДІЮЧІ ПРОГРАМИ
+                EXISTING PROGRAMS
             </h2>
             <div class="current-programs-box-wrapper">
                 <div class="box box1">
@@ -198,45 +211,57 @@
     </section>
     <div id="slider-height-helper"></div>
     <section id="news" class="news">
-        <p class="news-title">Новини</p>
+        <p class="news-title">NEWS</p>
 
         <div id="slider-news">
             <ul class="slides-container">
                 <li>
                     <div id="news-image1"></div>
                     <div class="wrapper" id="first-slide-text">
-                        <p>  День незалежності вважається днем народження Сполучених Штатів як вільної і незалежної країни. Більшість американців називають це свято просто за його датою - «Четверте липня».</p>
-                        <p>    Свято нагадує про те, що 4 липня 1776 було підписано Декларацію незалежності. У той час жителі 13 британських колоній, які розташовувалися уздовж східного узбережжя сьогоднішньої території Сполучених Штатів, вели війну з англійським королем і парламентом, оскільки вважали, що ті поводяться з ними несправедливо. Війна почалась у 1775 році. </p>
-                        <p>    Протягом своєї історії Сполучені Штати Америки є прикладом демократичного суспільства, заснованого на верховенстві закону і повної поваги до прав людини, осередком цивілізаційного вибору сучасності, гарантом миру, безпеки й стабільності світового ладу. </p>
-                        <p>    Останні події в Україні продемонстрували міцне партнерство між нашими держави у відстоюванні демократії та свободи, що є дуже важливим для Українського народу. </p>
-                        <p>    Ми переконані, що партнерські відносини з Сполученими Штатами Америки й надалі будуть зміцнюватись та сприятимуть взаємовигідному соціально-політичному, торгово-економічну та благодійному співробітництву для обох держав.  </p>
-                        <p>   Від імені нашого Благодійного Фонду «Стрічка Надії» щиро вітаємо Сполучені Штати Америки з нагоди Дня Незалежності та бажаємо процвітання та мирного неба! </p>
+                        <p>  Independence Day is considered the birthday of the United States as a free and independent country. Most Americans simply call it a feast for his date - "Fourth of July".
+                        </p>
+                        <p> The holiday resembles that July 4, 1776 Declaration of Independence was signed. While residents of the 13 British colonies located along the east coast of the United States today, waged war with the English king and Parliament, because they thought that they treated them unfairly. The war began in 1775.
+                        </p>
+                        <p>Throughout its history, the United States is an example of a democratic society based on the rule of law and full respect for human rights, the focus of our civilization choice, the guarantor of peace, security and stability of the world order.
+                        </p>
+                        <p>Recent events in Ukraine demonstrate a strong partnership between our countries in defending democracy and freedom, which is very important for the Ukrainian people.
+                        </p>
+                        <p>
+                            We believe that the partnership with the United States will continue to strengthen and promote mutually beneficial socio-political, trade and economic cooperation and charity for both states.  </p>
+                        <p> On behalf of our Charitable Foundation "Ribbon of Hope" congratulate the United States on Independence Day and wish prosperity and peaceful sky!
+                        </p>
                     </div>
                 </li>
                 <li>
                     <div id="news-video-placeholder"></div>
                     <div class="wrapper" id="second-slide-text">
-                        <p> Розпочавши нашу діяльність ми працювали в різноманітних сферах благодійності: допомога воїнам АТО та їх сім'ях, допомога соціально незахищеним верствам населення, інвалідам, і зрозуміли велику істину - роблячи навіть маленькі добрі справи ми змінюємо наш світ на краще. </p>
-                        <p>Цим соціальним відеороликом ми хочем звернути увагу громадськості до проблем нашої країни та необхідності їх спільного вирішення, а саме: допомога воїнам АТО та їх сім'ям, підтримка переселенців, інвалідів. Це такі ж українці як і ми з вами.
-                            Не будьте байдужими - робіть добро іншим та колись воно повернеться до Вас!</p>
-                        <p>
-                            Дякуємо героям нашого ролику: Олексію Кошевцю, Юлії Ресенчук, Юлії Федорко, Галині Мелешко, Ельмаз Шейхаметовій, Олегу Ярошевському, Приходько Єві
+                        <p> Having started our business we have worked in various areas of charity: ATO help soldiers and their families,
+                            help disadvantaged people, disabled people and realized a great truth - making even small good deeds we change
+                            our world for the better.
                         </p>
-                        <p>Режиссер, оператор: Саляр Алі</p>
-                        <p>Дякуємо за підтримку засновникам фонду: Олексію Кошевцю та Юлії Федорко</p>
+                        <p>
+                            This social video clip we want to draw public attention to the problems of our country and the need for common
+                            solutions, namely ATO help soldiers and their families, support persons, disabled persons. This Ukrainian same
+                            as we are. Do not be indifferent - do good to others and once it returns to you!
+                        </p>
+                        <p>
+                            Thanks to the heroes of our video: Alex Koshevets, Resenchuk Yulia, Yulia Fedorko, Galina Meleshko, Elmaz Sheyhametoviy, Oleg Yaroshevskiy, Pruhodko Eve
+                        </p>
+                        <p>Cameraman: Ali Salyar</p>
+                        <p>Thank you for supporting founders of the fund: Alex Koshevets and Julia Fedorko.</p>
                     </div>
                 </li>
             </ul>
             <nav class="slides-navigation">
-                <a href="#" class="next"></a>
                 <a href="#" class="prev"></a>
+                <a href="#" class="next"></a>
             </nav>
         </div>
     </section>
     <section class="write-us">
-        <h3 class="write-us-header">НАПИШІТЬ НАМ</h3>
+        <h3 class="write-us-header">CONTACT US</h3>
         <div class="feedback-link">
-            <a href="#" id="go">НАПИСАТИ</a>
+            <a href="#" id="go">SEND </a>
         </div>
         <!--Modal window-->
 

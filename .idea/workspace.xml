@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b23c5646-d13a-41a6-8bd9-bbd69ce2a0a3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ukr/css/main.css" afterPath="$PROJECT_DIR$/ukr/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ukr/leadership.php" afterPath="$PROJECT_DIR$/ukr/leadership.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eng/about-mission.php" afterPath="$PROJECT_DIR$/eng/about-mission.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eng/css/main.css" afterPath="$PROJECT_DIR$/eng/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eng/elements/footer.php" afterPath="$PROJECT_DIR$/eng/elements/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eng/elements/header.php" afterPath="$PROJECT_DIR$/eng/elements/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eng/index.php" afterPath="$PROJECT_DIR$/eng/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ukr/index.php" afterPath="$PROJECT_DIR$/ukr/index.php" />
     </list>
     <ignored path="main.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,21 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leadership.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="leadership.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ukr/leadership.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leadership.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ukr/css/leadership.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -72,38 +64,18 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ukr/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            <state relative-caret-position="136">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ukr/elements/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="165" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="165" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ukr/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="967" column="33" selection-start-line="967" selection-start-column="33" selection-end-line="967" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eng/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18683">
-              <caret line="1099" column="24" selection-start-line="1099" selection-start-column="24" selection-end-line="1099" selection-end-column="24" />
+            <state relative-caret-position="204">
+              <caret line="398" column="1" selection-start-line="398" selection-start-column="1" selection-end-line="398" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -112,8 +84,38 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eng/index.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="259" column="14" selection-start-line="259" selection-start-column="14" selection-end-line="259" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eng/elements/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leadership.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eng/leadership.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about-mission.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eng/about-mission.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -122,8 +124,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eng/elements/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="323">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -160,12 +162,16 @@
         <option value="$PROJECT_DIR$/elements/header.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/eng/elements/header.php" />
         <option value="$PROJECT_DIR$/ukr/elements/header.php" />
-        <option value="$PROJECT_DIR$/eng/css/main.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/ukr/css/main.css" />
         <option value="$PROJECT_DIR$/ukr/leadership.php" />
+        <option value="$PROJECT_DIR$/eng/elements/header.php" />
+        <option value="$PROJECT_DIR$/ukr/index.php" />
+        <option value="$PROJECT_DIR$/eng/about-mission.php" />
+        <option value="$PROJECT_DIR$/eng/elements/footer.php" />
+        <option value="$PROJECT_DIR$/eng/index.php" />
+        <option value="$PROJECT_DIR$/eng/css/main.css" />
       </list>
     </option>
   </component>
@@ -238,7 +244,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ukr" />
+              <option name="myItemId" value="eng" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -252,7 +258,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ukr" />
+              <option name="myItemId" value="eng" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -270,7 +276,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ukr" />
+              <option name="myItemId" value="eng" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -364,15 +370,15 @@
       <workItem from="1469279934513" duration="15900000" />
       <workItem from="1469369306932" duration="10085000" />
       <workItem from="1469557489483" duration="5615000" />
-      <workItem from="1469645185743" duration="976000" />
+      <workItem from="1469645185743" duration="3751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151120000" />
+    <option name="totallyTimeSpent" value="153895000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1322" height="726" extended-state="1" />
+    <frame x="1" y="1" width="1322" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23277183" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -412,9 +418,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/rect4.jpg" />
-    <entry file="file://$PROJECT_DIR$/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/js/libs/superslides-0.6.2/dist/jquery.superslides.js" />
     <entry file="file://$PROJECT_DIR$/js/libs/superslides-0.6.2/dist/jquery.superslides.min.js" />
     <entry file="file://$PROJECT_DIR$/css/main.css" />
     <entry file="file://$PROJECT_DIR$/js/libs/superslides-0.6.2/dist/stylesheets/superslides.css" />
@@ -453,30 +456,6 @@
     <entry file="file://$PROJECT_DIR$/css/leadership.css" />
     <entry file="file://$PROJECT_DIR$/js/main.js" />
     <entry file="file://$PROJECT_DIR$/css/main.css" />
-    <entry file="file://$PROJECT_DIR$/eng/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eng/elements/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eng/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18683">
-          <caret line="1099" column="24" selection-start-line="1099" selection-start-column="24" selection-end-line="1099" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ukr/css/leadership.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-51">
@@ -511,14 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ukr/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -531,6 +502,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eng/elements/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eng/about-mission.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eng/leadership.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ukr/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eng/elements/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eng/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="259" column="14" selection-start-line="259" selection-start-column="14" selection-end-line="259" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eng/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="398" column="1" selection-start-line="398" selection-start-column="1" selection-end-line="398" selection-end-column="1" />
           <folding />
         </state>
       </provider>

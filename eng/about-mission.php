@@ -28,11 +28,11 @@
 </header>
 <div class="main">
     <div class="mission">
-        <p class="mission-header">МІСІЯ ФОНДУ</p>
-        <p class="mission-text">Сприяти становленню людей нового покоління - професійних, патріотичних,
-            етичних українців, які турбуються про суспільне благо й активні у громадському і політичному житті суспільства, вміють співпрацювати з іншими.
-
-           Ці молоді українці утворять критичну масу людей, які здійснять трансформацію України.
+        <p class="mission-header">MISSION FUND </p>
+        <p class="mission-text">Promote the development of a new generation of people - professional,
+            patriotic, ethical Ukrainian who care about the common good and active in social and political
+            life of society, are able to cooperate with others. These young Ukrainian form a critical mass of
+            people who will carry out the transformation of Ukraine.
         </p>
     </div>
     <div class="write-us">

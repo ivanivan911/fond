@@ -4,7 +4,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Благодійний фонд стрічка Надії</title>
     <meta name="description" content="Благодійний фонд стрічка надії">
-
     <meta name="keywords" content="Благодійний фонд,стрічка надії ">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
@@ -13,8 +12,6 @@
     <script src="./js/libs/superslides-0.6.2/dist/jquery.superslides.js"></script>
     <script src="./js/libs/html5shiv.js"></script>
     <script src="https://www.youtube.com/iframe_api"></script>
-
-
 </head>
 <body>
     <?php include('./elements/header.php') ?>
