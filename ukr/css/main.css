@@ -958,7 +958,7 @@ footer {
     display: inline-block;
     text-decoration: none;
     padding: 48px 24px 48px;
-    color: #fff;
+    color: #20257f;
     background-size: 100% 200%;
     background-image: linear-gradient(to bottom, transparent 50%, #20257f 50%);
     transition: background-position 0.3s;
@@ -966,9 +966,11 @@ footer {
 
 .leadership-header-nav-list-item-link:hover {
     background-position: 0 -100%;
+    color:white;
 }
 
 .leadership-header-nav-list-item-link-active {
+    color:white;
     background: #20257f;
 }
 

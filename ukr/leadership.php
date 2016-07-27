@@ -32,6 +32,9 @@
                 <li class="leadership-header-nav-list-item">
                     <a href="#footer" id="toFooter" class="leadership-header-nav-list-item-link">Контакти</a>
                 </li>
+                <li class="leadership-header-nav-list-item">
+                    <a href="../eng/leadership.php"  class="leadership-header-nav-list-item-link">Мова: <img id="language-icon" src="./img/flag-ukr.png"></a>
+                </li>
             </ul>
         </nav>
     </div>
