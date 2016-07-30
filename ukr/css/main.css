@@ -20,7 +20,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 }
 
-
 @font-face {
     font-family: 'Roboto Medium';
     src: url('../font/r_med/roboto-medium-webfont.eot');
@@ -32,7 +31,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     font-style: normal;
 
 }
-
 
 @font-face {
     font-family: 'Roboto Light';
@@ -141,8 +139,6 @@ header {
 .scroll-header-nav-list-item {
     padding: 48px 25px 48px;
 }
-
-
 
 /*Banner*/
 
@@ -438,8 +434,6 @@ header {
     //left: 50%;
     margin-left: -20px;
 }
-
-
 
 .clear-activity{
     display: block;
@@ -777,6 +771,10 @@ footer {
     font-family: "Roboto Medium", sans-serif;
 }
 
+footer .wrapper {
+    max-width: 1070px;
+}
+
 .footer-activity-block,
 .contact-info {
     display: inline-block;
@@ -1029,8 +1027,6 @@ footer {
     line-height: 2;
 }
 
-
-
 #about-mission .mission{
     height:740px;
     background: url('../img/fund_mission.jpg');
@@ -1065,7 +1061,6 @@ footer {
     text-align: center;
 }
 
-
 .video-backstage, li video{
     width: 100%;
     height:100%;
@@ -1089,7 +1084,6 @@ footer {
     top:-50px;
 }
 
-
 #news-image1{
     background-image: url('../img/america2.jpg');
     background-size: cover;
@@ -1105,7 +1099,6 @@ footer {
     position: relative;
     bottom:0;
 }
-
 
 #second-slide-text p{
     text-align: justify;
