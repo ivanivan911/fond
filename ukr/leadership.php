@@ -47,10 +47,7 @@
             </p>
         </div>
         <div class="leadership-write-us">
-            <h3 class="leadership-write-us-header">НАПИШІТЬ НАМ</h3>
-            <div class="leadership-feedback-link">
-                <a href="#">НАПИСАТИ</a>
-            </div>
+            <?php include('./elements/write-us.php')?>
         </div>
     </main>
     <?php include('./elements/footer.php')?>

@@ -87,7 +87,11 @@ $(document).ready(function() {
             $(".hidden-details").slideUp(1000);
             $(".activity-rectangle").removeClass("hidden-details-active");
             $(this).addClass('hidden-details-active');
-            $("#hidden-details-" + selector).slideDown(1000);
+            $("#hidden-details-" + selector).slideDown(1000, function(){
+                if($(window).scrollTop() + $(window).height() < $("#hidden-details-" + selector).offset().top +  $("#hidden-details-" + selector).height()){
+                    $('html,body').animate( { scrollTop:  $(window).height() + $("#hidden-details-" + selector).height() + 40 }, 1100 );
+                }
+            });
         } else{
             $(this).removeClass("hidden-details-active");
             $("#hidden-details-" + selector).slideUp(1000);
@@ -108,7 +112,6 @@ $(document).ready(function() {
     $("#toNews").click(function () {
         var elementClick = $(this).attr("href");
         var destination = $(elementClick).offset().top - 110;
-        console.log(destination);
         $('html,body').animate( { scrollTop: destination }, 1100 );
         return false;
     });
@@ -116,7 +119,6 @@ $(document).ready(function() {
     $("#to-about-us").click(function () {
         var elementClick = $(this).attr("href");
         var destination = $(elementClick).offset().top - 110;
-        console.log(destination);
         $('html,body').animate( { scrollTop: destination }, 1100 );
         return false;
     });
@@ -273,27 +275,7 @@ function onNewsPlayerStateChange(state){
 /*Modal window*/
 
 $(document).ready(function() {
-    $('a#go').click( function(event){
-        event.preventDefault();
-        $('header').css('display', 'none');
-        $('#overlay').fadeIn(400,
-            function(){
-                $('#modal_form')
-                    .css('display', 'block')
-                    .animate({opacity: 1, top: '50%'}, 200);
-            });
-    });
 
-    $('#modal_close, #overlay').click( function(){
-        $('header').css('display', 'block');
-        $('#modal_form')
-            .animate({opacity: 0, top: '45%'}, 200,
-                function(){ // пoсле aнимaции
-                    $(this).css('display', 'none');
-                    $('#overlay').fadeOut(400);
-                }
-            );
-    });
 });
 
 /*Form validation*/
@@ -358,7 +340,27 @@ var mainPlayerStopped = false;
         $(this).animate({ "background-size":"100%" }, 1000);
     });
 
+    $('a#go').click( function(event){
+        event.preventDefault();
+        $('header').css('display', 'none');
+        $('#overlay').fadeIn(400,
+            function(){
+                $('#modal_form')
+                    .css('display', 'block')
+                    .animate({opacity: 1, top: '50%'}, 200);
+            });
+    });
 
+    $('#modal_close, #overlay').click( function(){
+        $('header').css('display', 'block');
+        $('#modal_form')
+            .animate({opacity: 0, top: '45%'}, 200,
+                function(){ // пoсле aнимaции
+                    $(this).css('display', 'none');
+                    $('#overlay').fadeOut(400);
+                }
+            );
+    });
 
 
 });
