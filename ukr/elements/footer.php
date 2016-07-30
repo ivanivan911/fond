@@ -18,14 +18,15 @@
                 <a id="join-btn" href="#">Приєднатись</a>
             </div>
         </div>
-        <div class="contact-info">
-            <a class="phone-number" href="tel: +380668381909">+38 066 838 19 09</a>
-            <div class="footer-social">
-                <a id="youtube-link" href="https://www.youtube.com/channel/UC4bNNCpsXWIEcaAn_rSLfeQ">YouTube</a>
-                <a id="facebook-link" href="https://www.facebook.com/StrichkaNadii/">Facebook</a>
+        <div style="display: inline-block">
+            <div class="contact-info">
+                <a class="phone-number" href="tel: +380668381909">+38 066 838 19 09</a>
+                <div class="footer-social">
+                    <a id="youtube-link" href="https://www.youtube.com/channel/UC4bNNCpsXWIEcaAn_rSLfeQ">YouTube</a>
+                    <a id="facebook-link" href="https://www.facebook.com/StrichkaNadii/">Facebook</a>
+                </div>
             </div>
+            <a href="index.php"><img src="img/logo_footer.png" alt="" id="footer-logo"></a>
         </div>
-        <a href="index.php"><img src="img/logo_footer.png" alt="" id="footer-logo"></a>
-
     </div>
 </footer>
