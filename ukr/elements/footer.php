@@ -8,6 +8,7 @@
 
                 </div>
                 <a id="sign-up-btn" href="#">Підписатись</a>
+                <span class="thanks-for-subscribe">Дякуємо за підписку!</span>
             </div>
             <div id="footer-join">
                 <div id="join-field-wrapper">
@@ -18,7 +19,7 @@
                 <a id="join-btn" href="#">Приєднатись</a>
             </div>
         </div>
-        <div style="display: inline-block">
+        <div class="footer-side-wrapper">
             <div class="contact-info">
                 <a class="phone-number" href="tel: +380668381909">+38 066 838 19 09</a>
                 <div class="footer-social">
