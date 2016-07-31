@@ -7,7 +7,7 @@
         </h1>
         <nav class="header-nav">
             <ul class="header-nav-list">
-                <li class="header-nav-list-item"><a href="#about-us-anchor"  id="to-about-us" class="header-nav-link">About us<a></li>
+                <li class="header-nav-list-item"><a href="#about-us-anchor"  id="to-about-us" class="header-nav-link">About us</a></li>
                 <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link">Patrons</a></li>
                 <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link">Leaders</a></li>
                 <li class="header-nav-list-item"><a href="#news" id="toNews" class="header-nav-link">News</a></li>
@@ -17,4 +17,3 @@
         </nav>
     </div>
 </header>
-

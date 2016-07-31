@@ -18,19 +18,22 @@
         <nav class="leadership-header-nav">
             <ul class="leadership-header-nav-list">
                 <li class="leadership-header-nav-list-item">
-                    <a href="index.php#about-us-anchor" class="leadership-header-nav-list-item-link">Про фонд</a>
+                    <a href="index.php#about-us-anchor" class="leadership-header-nav-list-item-link">About us</a>
                 </li>
                 <li class="leadership-header-nav-list-item">
-                    <a href="leadership.php" class="leadership-header-nav-list-item-link">Меценати</a>
+                    <a href="leadership.php" class="leadership-header-nav-list-item-link">Patrons</a>
                 </li>
                 <li class="leadership-header-nav-list-item">
-                    <a href="leadership.php" class="leadership-header-nav-list-item-link leadership-header-nav-list-item-link-active">Керівництво</a>
+                    <a href="leadership.php" class="leadership-header-nav-list-item-link leadership-header-nav-list-item-link-active">Leaders</a>
                 </li>
                 <li class="leadership-header-nav-list-item">
-                    <a href="index.php#news" class="leadership-header-nav-list-item-link">Новини</a>
+                    <a href="index.php#news" class="leadership-header-nav-list-item-link">News</a>
                 </li>
                 <li class="leadership-header-nav-list-item">
-                    <a href="#footer" id="toFooter" class="leadership-header-nav-list-item-link">Контакти</a>
+                    <a href="#footer" id="toFooter" class="leadership-header-nav-list-item-link">Contacts</a>
+                </li>
+                <li class="leadership-header-nav-list-item">
+                    <a href="../ukr/index.php"  class="leadership-header-nav-list-item-link">Lang: <img id="language-icon" src="./img/flag-usa.png"></a>
                 </li>
             </ul>
         </nav>
@@ -44,10 +47,7 @@
             </p>
         </div>
         <div class="leadership-write-us">
-            <h3 class="leadership-write-us-header">НАПИШІТЬ НАМ</h3>
-            <div class="leadership-feedback-link">
-                <a href="#">НАПИСАТИ</a>
-            </div>
+            <?php include('./elements/write-us.php')?>
         </div>
     </main>
     <?php include('./elements/footer.php')?>
