@@ -820,6 +820,7 @@ footer .wrapper {
 #footer-join a {
     border: 1px solid #9cd05d;
     color: #9cd05d;
+    width: 64px;
 }
 
 #footer-join a:hover{
@@ -922,6 +923,7 @@ footer .wrapper {
 }
 
 #footer-logo {
+    height: 100px;
     margin-left: 120px;
     position: relative;
     top: 12px;

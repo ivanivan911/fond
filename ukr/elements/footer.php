@@ -27,7 +27,7 @@
                     <a id="facebook-link" href="https://www.facebook.com/StrichkaNadii/">Facebook</a>
                 </div>
             </div>
-            <a href="index.php"><img src="img/logo_footer.png" alt="" id="footer-logo"></a>
+            <a href="index.php"><img src="img/logo-ukr.png" alt="" id="footer-logo"></a>
         </div>
     </div>
 </footer>

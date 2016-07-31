@@ -2,7 +2,7 @@
     <div class="wrapper">
         <h1 class="header-logo">
             <a href="index.php">
-                <img class="header-logo-img" src="img/logo.png" alt="Logo">
+                <img class="header-logo-img" src="img/logo-eng.png" alt="Logo">
             </a>
         </h1>
         <nav class="header-nav">

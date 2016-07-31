@@ -922,6 +922,7 @@ footer .wrapper {
 }
 
 #footer-logo {
+    height: 100px;
     margin-left: 120px;
     position: relative;
     top: 12px;
