@@ -140,6 +140,7 @@ $(document).ready(function() {
             $.post( "app/ajaxParser.php",{type:'emailForNews', email: $("#sign-up-field").val()}, function( data ) {
                 $( "#assignNews" ).slideDown( "slow" );
                 $("#sign-up-field").val('');
+                $('.thanks-for-subscribe').css('display', 'inline');
             })}
     });
 

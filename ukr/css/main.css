@@ -773,6 +773,7 @@ footer {
 
 footer .wrapper {
     max-width: 1070px;
+    text-align: center;
 }
 
 .footer-activity-block,
@@ -784,6 +785,7 @@ footer .wrapper {
 .footer-activity-block {
     width: 570px;
     height: 83px;
+    margin-bottom: 20px;
 }
 
 .footer-activity-block::after {
@@ -799,6 +801,10 @@ footer .wrapper {
     text-decoration: none;
     float: right;
     border-radius: 25px;
+}
+
+#footer-sign-up {
+    position: relative;
 }
 
 #footer-sign-up a {
@@ -855,10 +861,23 @@ footer .wrapper {
     display: inline-block;
 }
 
+.thanks-for-subscribe {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    font-size: 10px;
+    color: #9ecd62;
+    display: none;
+}
+
+.footer-side-wrapper {
+    display: inline-block;
+    margin-left: 6%;
+}
+
 .contact-info {
     width: 150px;
     height: 78px;
-    margin-left: 120px;
 }
 
 #youtube-link,
