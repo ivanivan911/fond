@@ -20,7 +20,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 }
 
-
 @font-face {
     font-family: 'Roboto Medium';
     src: url('../font/r_med/roboto-medium-webfont.eot');
@@ -32,7 +31,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     font-style: normal;
 
 }
-
 
 @font-face {
     font-family: 'Roboto Light';
@@ -141,8 +139,6 @@ header {
 .scroll-header-nav-list-item {
     padding: 48px 25px 48px;
 }
-
-
 
 /*Banner*/
 
@@ -439,8 +435,6 @@ header {
     margin-left: -20px;
 }
 
-
-
 .clear-activity{
     display: block;
     content: "";
@@ -675,7 +669,7 @@ b {
 }
 
 .modal_email {
-    background: url('../img/modal-message-icon.png') no-repeat 10px 6px, rgba(37, 37, 37, 0.8);
+    background: url('../img/modal-message-icon.png') no-repeat 10px 9px, rgba(37, 37, 37, 0.8);
     background-size: 25px;
 }
 
@@ -777,6 +771,11 @@ footer {
     font-family: "Roboto Medium", sans-serif;
 }
 
+footer .wrapper {
+    max-width: 1070px;
+    text-align: center;
+}
+
 .footer-activity-block,
 .contact-info {
     display: inline-block;
@@ -786,6 +785,7 @@ footer {
 .footer-activity-block {
     width: 570px;
     height: 83px;
+    margin-bottom: 20px;
 }
 
 .footer-activity-block::after {
@@ -801,6 +801,10 @@ footer {
     text-decoration: none;
     float: right;
     border-radius: 25px;
+}
+
+#footer-sign-up {
+    position: relative;
 }
 
 #footer-sign-up a {
@@ -857,10 +861,23 @@ footer {
     display: inline-block;
 }
 
+.thanks-for-subscribe {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    font-size: 10px;
+    color: #9ecd62;
+    display: none;
+}
+
+.footer-side-wrapper {
+    display: inline-block;
+    margin-left: 6%;
+}
+
 .contact-info {
     width: 150px;
     height: 78px;
-    margin-left: 120px;
 }
 
 #youtube-link,
@@ -957,7 +974,7 @@ footer {
     display: inline-block;
     text-decoration: none;
     padding: 48px 24px 48px;
-    color: #fff;
+    color: #20257f;
     background-size: 100% 200%;
     background-image: linear-gradient(to bottom, transparent 50%, #20257f 50%);
     transition: background-position 0.3s;
@@ -965,9 +982,11 @@ footer {
 
 .leadership-header-nav-list-item-link:hover {
     background-position: 0 -100%;
+    color:white;
 }
 
 .leadership-header-nav-list-item-link-active {
+    color:white;
     background: #20257f;
 }
 
@@ -1027,8 +1046,6 @@ footer {
     line-height: 2;
 }
 
-
-
 #about-mission .mission{
     height:740px;
     background: url('../img/fund_mission.jpg');
@@ -1063,7 +1080,6 @@ footer {
     text-align: center;
 }
 
-
 .video-backstage, li video{
     width: 100%;
     height:100%;
@@ -1087,7 +1103,6 @@ footer {
     top:-50px;
 }
 
-
 #news-image1{
     background-image: url('../img/america2.jpg');
     background-size: cover;
@@ -1103,7 +1118,6 @@ footer {
     position: relative;
     bottom:0;
 }
-
 
 #second-slide-text p{
     text-align: justify;

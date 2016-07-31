@@ -15,24 +15,38 @@
                 <img class="header-logo-img scroll-header-logo-img" src="img/logo.png" alt="Logo">
             </a>
         </h1>
-        <nav class="header-nav scroll-header-nav">
-            <ul class="header-nav-list">
-                <li class="header-nav-list-item"><a href="index.php#about-us-anchor" class="header-nav-link scroll-header-nav-list-item">Про фонд</a></li>
-                <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link scroll-header-nav-list-item">Меценати</a></li>
-                <li class="header-nav-list-item"><a href="leadership.php" class="header-nav-link scroll-header-nav-list-item">Керівництво</a></li>
-                <li class="header-nav-list-item"><a href="index.php#news" class="header-nav-link scroll-header-nav-list-item">Новини</a></li>
-                <li class="header-nav-list-item"><a href="#footer" id="toFooter" class="header-nav-link scroll-header-nav-list-item">Контакти</a></li>
+        <nav class="leadership-header-nav">
+            <ul class="leadership-header-nav-list">
+                <li class="leadership-header-nav-list-item">
+                    <a href="index.php#about-us-anchor" class="leadership-header-nav-list-item-link">About us</a>
+                </li>
+                <li class="leadership-header-nav-list-item">
+                    <a href="leadership.php" class="leadership-header-nav-list-item-link">Patrons</a>
+                </li>
+                <li class="leadership-header-nav-list-item">
+                    <a href="leadership.php" class="leadership-header-nav-list-item-link">Leaders</a>
+                </li>
+                <li class="leadership-header-nav-list-item">
+                    <a href="index.php#news" class="leadership-header-nav-list-item-link">News</a>
+                </li>
+                <li class="leadership-header-nav-list-item">
+                    <a href="#footer" id="toFooter" class="leadership-header-nav-list-item-link">Contacts</a>
+                </li>
+                <li class="leadership-header-nav-list-item">
+                    <a href="../ukr/index.php"  class="leadership-header-nav-list-item-link">Lang: <img id="language-icon" src="./img/flag-usa.png"></a>
+                </li>
             </ul>
         </nav>
     </div>
 </header>
 <div class="main">
     <div class="mission">
-        <p class="mission-header">MISSION FUND </p>
-        <p class="mission-text">Promote the development of a new generation of people - professional,
-            patriotic, ethical Ukrainian who care about the common good and active in social and political
-            life of society, are able to cooperate with others. These young Ukrainian form a critical mass of
-            people who will carry out the transformation of Ukraine.
+        <p class="mission-header">MISSION FUND</p>
+        <p class="mission-text">Promote the development of a new generation of people
+            - professional, patriotic, ethical Ukrainian who care about the common good
+            and active in social and political life of society, are able to cooperate with
+            others. These young Ukrainian form a critical mass of people who will carry out
+            the transformation of Ukraine.
         </p>
     </div>
     <div class="write-us">
