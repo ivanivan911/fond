@@ -1,7 +1,7 @@
 <section class="write-us">
-    <h3 class="write-us-header">НАПИШІТЬ НАМ</h3>
+    <h3 class="write-us-header">CONTACT US</h3>
     <div class="feedback-link">
-        <a href="#" id="go">НАПИСАТИ</a>
+        <a href="#" id="go">CONTACT</a>
     </div>
     <!--Modal window-->
 
