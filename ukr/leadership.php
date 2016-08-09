@@ -12,7 +12,7 @@
     <div class="wrapper">
         <h1 class="leadership-header-logo">
             <a href="index.php">
-                <img class="leadership-header-logo-img" src="img/logo.png" alt="Logo">
+                <img class="leadership-header-logo-img" src="img/logo-ukr.png" alt="Logo">
             </a>
         </h1>
         <nav class="leadership-header-nav">

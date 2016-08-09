@@ -12,7 +12,7 @@
     <div class="wrapper">
         <h1 class="header-logo scroll-header-logo">
             <a href="index.php">
-                <img class="header-logo-img scroll-header-logo-img" src="img/logo.png" alt="Logo">
+                <img class="header-logo-img scroll-header-logo-img" src="img/logo-ukr.png" alt="Logo">
             </a>
         </h1>
         <nav class="leadership-header-nav">

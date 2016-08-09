@@ -21,10 +21,6 @@
                 <li>
                     <img src="./img/fon_1.jpg"  alt="">
                     <div class="slider-content">
-                        <p class="blue-text"> <b>Робити</b> добро легше, ніж <b>бути</b> добрим</p>
-                        <p class="author blue-text">
-                            Ж. Вольфрам
-                        </p>
                         <div class="donate">
                             <a href="#">DONATE</a>
                         </div>
