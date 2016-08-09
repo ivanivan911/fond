@@ -235,7 +235,7 @@ function onYouTubeIframeAPIReady() {
         }
     });
     playerNews =  new YT.Player('news-video-placeholder', {
-        videoId: 'FQzMbL85ZS0',
+        videoId: 'IFilDOGD-YA',
         playerVars: {
             color: 'white',
             controls:0
