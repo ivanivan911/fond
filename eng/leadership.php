@@ -12,13 +12,10 @@
     <div class="wrapper">
         <h1 class="leadership-header-logo">
             <a href="index.php">
-<<<<<<< HEAD
-                <img class="leadership-header-logo-img" src="img/logo-ukr.png" alt="Logo">
-=======
                 <img class="leadership-header-logo-img" src="img/logo-eng.png" alt="Logo">
->>>>>>> ecd5ab4521f8dc07c41f4c718b8d32f7bcb367dc
             </a>
         </h1>
+        
         <nav class="leadership-header-nav">
             <ul class="leadership-header-nav-list">
                 <li class="leadership-header-nav-list-item">

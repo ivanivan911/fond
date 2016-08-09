@@ -20,7 +20,10 @@
             <ul class="slides-container">
                 <li>
                     <img src="./img/fon_1.jpg"  alt="">
-                    <div class="slider-content">
+                    <div class="slider-content first-slider-content">
+                        <p class="green-text uppercase">Благодійний Фонд</p>
+                        <p class="blue-text uppercase">«Стрічка Надії»</p>
+                        <p class="white-text uppercase"> - «Добро Завжди <span>Повертається»</span></p>
                         <div class="donate">
                             <a href="#">DONATE</a>
                         </div>

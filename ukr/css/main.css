@@ -179,9 +179,36 @@ header {
     font-style: italic;
     font-size: 45px;
     text-align: center;
-
     font-family: "Roboto Thin", sans-serif;
 }
+
+.first-slider-content p {
+    font-family: "Roboto Medium", sans-serif;
+}
+
+.first-slider-content {
+    top:30%;
+    line-height: 1.3;
+    font-family: "Roboto Medium", sans-serif;
+}
+
+.first-slider-content p:nth-child(1) {
+    font-size: 50px;
+}
+
+.first-slider-content p:nth-child(2) {
+    font-size: 50px;
+}
+
+.first-slider-content p:nth-child(3) {
+    font-size: 30px;
+}
+
+.first-slider-content p:nth-child(3) span {
+    position: relative;
+    top: 35px;
+}
+
 .donate{
     width: 180px;
     height: 65px;
@@ -311,7 +338,17 @@ header {
     background-size: cover;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
 
+.green-text {
+    color: #046e25;
+}
+
+.bold {
+    font-weight: bold;
+}
 
 .box-text{
     font-family: "Roboto Medium", sans-serif;
@@ -1008,6 +1045,10 @@ footer .wrapper {
     text-indent: 40px;
     line-height: 2;
     text-align: left;
+}
+
+.blue-text {
+    color: #201b6f;
 }
 
 .leadership-blue-text, .blue-text {

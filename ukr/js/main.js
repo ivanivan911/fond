@@ -149,7 +149,7 @@ $(document).ready(function() {
     $("#join-btn").click(function(event) {
         event.preventDefault();
         if( $("#join-field").val().length === 0 ) {
-            $("#join-field").val('Введіть Вашу email адресу');
+            $("#joain-field").val('Введіть Вашу email адресу');
         } else {
             $.post( "app/ajaxParser.php",{type:'emailVolunteer', email: $("#join-field").val()}, function( data ) {
                 $( "#assignVolunteer" ).slideDown( "slow" );

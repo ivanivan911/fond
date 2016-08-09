@@ -20,7 +20,10 @@
             <ul class="slides-container">
                 <li>
                     <img src="./img/fon_1.jpg"  alt="">
-                    <div class="slider-content">
+                    <div class="slider-content first-slider-content">
+                        <p class="green-text uppercase">Charitable Foundation</p>
+                        <p class="blue-text uppercase">«Ribbon Of Hope»</p>
+                        <p class="white-text uppercase"> - «The Good Always <span>Comes Back»</span></p>
                         <div class="donate">
                             <a href="#">DONATE</a>
                         </div>
