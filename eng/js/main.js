@@ -326,13 +326,6 @@ var mainPlayerStopped = false;
                 $('#slider-news').superslides('stop');
             }
     });
-    $('.activity-rectangle').css({"background-size":"115%"});
-    $('.activity-rectangle').mouseenter(function() {
-        $(this).animate({ "background-size":"120%" }, 1000);
-    }).mouseleave(function() {           
-        $(this).animate({ "background-size":"115%" }, 1000);
-    });
-
 
     $('.box').css({"background-size":"100%"});
     $('.box').mouseenter(function() {

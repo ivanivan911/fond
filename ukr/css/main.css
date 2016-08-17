@@ -307,35 +307,38 @@ header {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .activity-rectangle:hover {
 
     -webkit-box-shadow: inset 0px 0px 37px 2px #909090;
-    -moz-box-shadow: inset 0px 0px 37px 2px #909090;
+    -moz-box-shadow: inset 0px 0px 37px 2px #9s09090;
     box-shadow: inset 0px 0px 37px 2px #909090;
+    -webkit-background-size: 110% 110%;
+    background-size: 110% 110%;
+
 }
 
 
 .rect1 {
     background: url('../img/rect1.jpg') top center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .rect2 {
     background: url('../img/rect2.jpg') top center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .rect3 {
     background: url('../img/rect3.jpg') top center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .rect4 {
     background: url('../img/rect4.jpg') top center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .uppercase {
